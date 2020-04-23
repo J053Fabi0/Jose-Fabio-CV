@@ -1,0 +1,6 @@
+h1 {font-family: Palatino, 'Palatino Linotype', serif}
+h2 {font-family: Palatino, 'Palatino Linotype', serif; clear: left; color : #b30000}
+h3 {font-family: Palatino, 'Palatino Linotype', serif}
+p {font-family: Palatino, 'Palatino Linotype', serif; text-align: justify; text-justify: inter-word}
+img {border: 15px solid #fff3e6; display: block; vertical-align: top}
+summary {font-family: Palatino, 'Palatino Linotype', serif; outline:none, background-color: gray}
