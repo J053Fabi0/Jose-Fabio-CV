@@ -1,14 +1,18 @@
  :root {
   --color_background: #ddd5d5;
   --color_background_light: #fff3e6;
+  --color_background_pampas: #f4f2ee;
+  --color_background_whitelinen: #f8f0e8;
   --color_niceRed: #b30000;
   --color_niceBlue: #0000e6;
+  --color_olivine: #9AB973;
 }
 
-h1 {font-family: Palatino, 'Palatino Linotype', serif; text-align: center; color: var(--color_niceBlue)}
+h1 {font-family: Palatino, 'Palatino Linotype', serif; text-align: center; color: var(--color_niceBlue); background-color: var(--color_olivine)}
 h2 {font-family: Palatino, 'Palatino Linotype', serif; clear: left; color : var(--color_niceRed)}
 h3 {font-family: Palatino, 'Palatino Linotype', serif; color: black}
 p {font-family: Palatino, 'Palatino Linotype', serif; text-align: justify; text-justify: inter-word}
-img {border: 15px solid var(--color_background); display: block; vertical-align: top}
+img {border: 15px solid var(--color_background_whitelinen); display: block; vertical-align: top}
 summary {font-family: Palatino, 'Palatino Linotype', serif; outline:none}
-body {background-color: var(--color_background);
+body {background-color: var(--color_background_whitelinen);}
+hr {background-color: var(--color_olivine); color: var(--color_olivine); height: 3px}
