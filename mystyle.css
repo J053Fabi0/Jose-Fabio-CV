@@ -8,11 +8,11 @@
   --color_olivine: #9AB973;
 }
 
-h1 {font-family: Palatino, 'Palatino Linotype', serif; text-align: center; color: var(--color_niceBlue); background-color: var(--color_olivine)}
-h2 {font-family: Palatino, 'Palatino Linotype', serif; clear: left; color : var(--color_niceRed)}
-h3 {font-family: Palatino, 'Palatino Linotype', serif; color: black}
-p {font-family: Palatino, 'Palatino Linotype', serif; text-align: justify; text-justify: inter-word}
+h1 {font-family: Palatino, 'Palatino Linotype', serif; text-align: center; vertical-align: middle; color: white; height: 70px; text-shadow: 0 2px 0 black; font-size: 70px; background-image: url("figures/Egon_Schiele.jpg");}
+h2 {font-family: Palatino, 'Palatino Linotype', serif; clear: left; color : var(--color_niceRed);}
+h3 {font-family: Palatino, 'Palatino Linotype', serif; color: black;}
+p {font-family: Palatino, 'Palatino Linotype', serif; text-align: justify; text-justify: inter-word;}
 img {border: 15px solid var(--color_background_whitelinen); display: block; vertical-align: top}
 summary {font-family: Palatino, 'Palatino Linotype', serif; outline:none}
 body {background-color: var(--color_background_whitelinen);}
-hr {background-color: var(--color_olivine); color: var(--color_olivine); height: 3px}
+hr {background-image: url("figures/Egon_Schiele.jpg"); height:10px;}
