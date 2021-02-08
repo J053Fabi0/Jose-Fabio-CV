@@ -13,6 +13,6 @@ h2 {font-family: Palatino, 'Palatino Linotype', serif; clear: left; color : var(
 h3 {font-family: Palatino, 'Palatino Linotype', serif; color: black;}
 p {font-family: Palatino, 'Palatino Linotype', serif; text-align: justify; text-justify: inter-word;}
 img {border: 15px solid var(--color_background_whitelinen); display: block; vertical-align: top}
-summary {font-family: Palatino, 'Palatino Linotype', serif; outline:none}
+summary {font-family: Palatino, 'Palatino Linotype', serif; outline:none;}
 body {background-color: var(--color_background_whitelinen);}
 hr {background-image: url("figures/schiele_bg.jpg"); height:10px;}
