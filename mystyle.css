@@ -8,8 +8,22 @@
   --color_olivine: #9AB973;
 }
 
+html, body {
+        margin: 1% 2.5% 1% 2.5%;
+        border: 0%;
+        width: 95%;
+    }
+
+body {
+    padding: 0 0;
+}
+
+#main {
+    margin: 0 auto; /* in case you want to set a fixed width on this as well */
+}
+
 h1 {
-font-family: Palatino, 'Palatino Linotype', 'GFS Didot', Didot, Didot LT STD, serif;
+font-family: "Palatino", 'Palatino Linotype', 'GFS Didot', 'Didot', 'Didot LT STD', serif;
 text-align: center;
 height: 70px;
 padding: 10px 0px 10px 0px;
@@ -19,16 +33,16 @@ font-size: 70px;
 background-image: url("figures/schiele_bg.jpg");
 }
 h2 {
-font-family: Palatino, 'Palatino Linotype', 'GFS Didot', Didot, Didot LT STD, serif;
+font-family: "Palatino", 'Palatino Linotype', 'GFS Didot', 'Didot', 'Didot LT STD', serif;
 clear: left;
 color : var(--color_niceRed);
 }
 h3 {
-font-family: Palatino, 'Palatino Linotype', 'GFS Didot', Didot, Didot LT STD, serif;
+font-family: "Palatino", 'Palatino Linotype', 'GFS Didot', 'Didot', 'Didot LT STD', serif;
 color: black;
 }
 p {
-font-family: Palatino, 'Palatino Linotype', 'GFS Didot', Didot, Didot LT STD, serif;
+font-family: "Palatino", 'Palatino Linotype', 'GFS Didot', 'Didot', 'Didot LT STD', serif;
 text-align: justify;
 text-justify: inter-word;
 }
