@@ -9,10 +9,15 @@
 }
 
 html, body {
-        margin: 1% 2.5% 1% 2.5%;
         border: 0%;
-        width: 95%;
+        width: 960px;
+        margin: auto;
     }
+
+/*
+older width: 95%;
+margin: 1% 2.5% 1% 2.5%;
+*/
 
 body {
     padding: 0 0;
