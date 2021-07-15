@@ -17,6 +17,7 @@ body {
   width: 90%;
   background-image: url("./figures/bg_colors.jpg");
   background-repeat: repeat;
+  background-color: black;
   background-size: 220px;
   margin: auto;
 }
