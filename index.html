@@ -82,18 +82,18 @@
           <details>
             <summary>
               <span class="h3-span pointer">
-                <strong>Lana Bot</strong>&nbsp;&nbsp; <i>2020 - Ongoing</i>
+                <strong>Lana Bot</strong>&nbsp;&nbsp; <i class="date">2020 - Ongoing</i>
               </span>
             </summary>
 
             <div style="padding-left: 15px;">
-              <img align="left" width="50" src="figures/LanaBot.png" loading="lazy" style="padding-right: 10px;">
+              <img align="left" width="50" height="50" src="figures/LanaBot.png" loading="lazy" style="padding-right: 10px;">
 
               <p>
                 Track the price of your favorite pairs of cryptocurrencies in 
                 the pDEX <a href="https://incognito.org">Incognito.org market</a>.
 
-                </br>
+                <br>
 
                 <a href="https://t.me/pDEX_Lana_bot">Try it now!</a>
               </p>
@@ -104,12 +104,12 @@
           <details>
             <summary>
               <span class="h3-span pointer">
-                <strong>Ensi Bot</strong>&nbsp;&nbsp; <i>2020 - Ongoing</i>
+                <strong>Ensi Bot</strong>&nbsp;&nbsp; <i class="date">2020 - Ongoing</i>
               </span>
             </summary>
 
             <div style="padding-left: 15px;">
-              <img align="left" width="50" src="figures/EnsiBot.png" loading="lazy" style="padding-right: 10px;">
+              <img align="left" width="50" height="50" src="figures/EnsiBot.png" loading="lazy" style="padding-right: 10px;">
 
               <p>
                 Track the status and earnings of your nodes in <a href="https://incognito.org">Incognito.org</a>.
@@ -132,12 +132,12 @@
           <details>
             <summary>
               <span class="h3-span pointer">
-                <strong>Lets reduce our carbon footprint</strong>&nbsp;&nbsp; <i>2020</i>
+                <strong>Lets reduce our carbon footprint</strong>&nbsp;&nbsp; <i class="date">2020</i>
               </span>
             </summary>
 
             <div style="padding-left: 15px;">
-              <img align="left" width="50" src="figures/reduzcamos_carbono.png" loading="lazy" style="padding-right: 10px;">
+              <img align="left" width="50" height="50" src="figures/reduzcamos_carbono.png" loading="lazy" style="padding-right: 10px;">
 
               <p>
                 See scientifically proven ways to reduce it and choose the ones you can achieve!
@@ -411,16 +411,8 @@
 
       <!-- <hr> -->
     </div>
+    <div><p>&nbsp;</p></div>
 
-    <script>
-      const btn = document.getElementById('expAll');
-      btn.addEventListener('click', function() {
-        const details = document.querySelectorAll("details");
-        const newValue = !Array.from(details)[0].open;
-        btn.innerHTML = newValue ? "Collapse all" : "Expand all";
-
-        for (let obj of Array.from(details)) obj.open = newValue;
-      }, false);
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>

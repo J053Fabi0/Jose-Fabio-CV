@@ -62,6 +62,9 @@ a,
 button {
   color: #26a4e4;
   text-decoration: none;
+}
+
+button {
   font-size: 14px;
 }
 
@@ -72,6 +75,10 @@ button {
 
 .h3-span {
   font-size: 24px;
+}
+
+.date {
+  font-size: 18px;
 }
 
 .pointer {
