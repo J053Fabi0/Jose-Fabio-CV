@@ -1,61 +1,138 @@
- :root {
+:root {
   --color_background: #ddd5d5;
   --color_background_light: #fff3e6;
   --color_background_pampas: #f4f2ee;
   --color_background_whitelinen: #f8f0e8;
+  --color_backgraund_softBlue: #f2f4ff;
   --color_niceRed: #b30000;
-  --color_niceBlue: #0000e6;
-  --color_olivine: #9AB973;
+  --color_niceBlue: #6263a7;
+  --color_niceBlueSoft: #7c7db6;
+  --color_niceBlueMalhela: #6263a7;
+  --color_olivine: #9ab973;
 }
 
-html, body {
-        border: 0%;
-        width: 960px;
-        margin: auto;
-    }
-
-/*
-older width: 95%;
-margin: 1% 2.5% 1% 2.5%;
-*/
+html,
+body {
+  border: 0%;
+  width: 90%;
+  background-image: url("./figures/bg_colors.jpg");
+  background-repeat: repeat;
+  background-size: 220px;
+  margin: auto;
+}
 
 body {
-    padding: 0 0;
+  padding: 0 0;
 }
 
 #main {
-    margin: 0 auto; /* in case you want to set a fixed width on this as well */
+  margin: 0 auto; /* in case you want to set a fixed width on this as well */
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(40, 40, 40, 0.95);
+  box-shadow: 0px 0px 8px 5px black;
+  -webkit-box-shadow: 0px 0px 8px 5px black;
 }
 
 h1 {
-text-align: center;
-height: 70px;
-padding: 10px 0px 10px 0px;
-color: white;
-text-shadow: 4px 4px 4px black;
-font-size: 70px;
-background-image: url("figures/schiele_bg.jpg");
+  text-align: center;
+  height: 70px;
+  padding: 10px 0px 30px 0px;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  font-size: 70px;
+  background-image: url("figures/bg_blue.jpg");
+  background-size: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 5px black;
+  -webkit-box-shadow: 0px 0px 8px 5px black;
 }
 
 h2 {
-clear: left;
-color : var(--color_niceRed);
+  clear: left;
+  color: #007dd6;
+  font-size: 35px;
 }
 
 h3 {
-color: black;
+  color: black;
+}
+
+a,
+button {
+  color: #26a4e4;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.h2-span {
+  font-size: 26px;
+  color: #26a4e4;
+}
+
+.h3-span {
+  font-size: 24px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 p {
-text-align: justify;
-text-justify: inter-word;
+  font-size: 22px;
 }
 
-img {border: 15px solid var(--color_background_whitelinen); display: block; vertical-align: top}
-summary {font-family: Palatino, 'Palatino Linotype', Didot, Didot LTSTD, serif; outline:none;}
-body {background-color: var(--color_background_whitelinen);}
-hr {background-image: url("figures/schiele_bg.jpg"); height:10px;}
+p,
+span {
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+}
 
-html, body, form, h1, h2, h3, p {
-    font-family: "Palatino", 'Palatino Linotype', 'GFS Didot', 'Didot', 'Didot LT STD', serif;
+img {
+  display: block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#profile_pic {
+  border: 10px;
+  border-top-color: #33658a;
+  border-bottom-color: #0c7c59;
+  border-left-color: #86bbd8;
+  border-right-color: #a188a6;
+  border-radius: 15px;
+  border-style: inset;
+}
+
+summary {
+  outline: none;
+  color: white;
+}
+
+hr {
+  background-image: url("./figures/bg_colors.jpg");
+  background-repeat: repeat;
+  background-size: 220px;
+  border-radius: 5px;
+  border: 0px;
+  height: 12px;
+}
+
+button {
+  background: none !important;
+  border: none;
+  padding: 10, 0, 0, 0 !important;
+  cursor: pointer;
+}
+
+html,
+body,
+form,
+span,
+h1,
+h2,
+h3,
+p {
+  font-family: "Source Sans Pro", sans-serif;
 }
