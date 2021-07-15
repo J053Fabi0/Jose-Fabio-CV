@@ -182,4 +182,9 @@ p {
   span {
     text-align: left;
   }
+
+  body,
+  html {
+    width: 97%;
+  }
 }
