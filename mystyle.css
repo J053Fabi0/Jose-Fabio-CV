@@ -170,4 +170,9 @@ p {
     font-size: 45px;
     padding: 10px 0px 30px 0px;
   }
+
+  p,
+  span {
+    text-align: left;
+  }
 }
