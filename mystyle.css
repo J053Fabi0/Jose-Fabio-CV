@@ -86,6 +86,18 @@ button {
   cursor: pointer;
 }
 
+.h1-details {
+  margin-left: 20px;
+}
+
+.h2-details {
+  margin-left: 25px;
+}
+
+.h3-details {
+  margin-left: 15px;
+}
+
 p {
   font-size: 22px;
 }
@@ -186,5 +198,18 @@ p {
   body,
   html {
     width: 97%;
+  }
+
+  .h1-details {
+    margin-left: 10px;
+  }
+
+  .h2-details {
+    margin-left: 15px;
+  }
+
+  #main {
+    box-shadow: 0px 0px 10px 1px black;
+    -webkit-box-shadow: 0px 0px 10px 1px black;
   }
 }
