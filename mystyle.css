@@ -85,6 +85,7 @@ button {
 
 .date {
   font-size: 18px;
+  white-space: nowrap;
 }
 
 .pointer {
