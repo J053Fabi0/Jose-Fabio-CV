@@ -24,5 +24,12 @@
         }
       }
     }
+  },
+  "footer": {
+    "english": "English",
+    "spanish": "Spanish",
+    "en-href": ".",
+    "es-href": "es",
+    "eo-href": "eo"
   }
 }

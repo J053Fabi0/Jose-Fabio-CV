@@ -164,6 +164,26 @@ p {
   margin-bottom: 10px;
 }
 
+footer {
+  text-align: center;
+  font-variant: small-caps;
+  clear: both;
+  padding: 2em 0;
+}
+footer li {
+  display: inline-block;
+  margin: 0 0.5em;
+  font-size: x-large;
+}
+footer li:hover {
+  /* background: lightblue; */
+  filter: brightness(80%);
+}
+footer {
+  padding: 0;
+  font-size: large;
+}
+
 @media screen and (max-width: 640px) {
   #profile_pic {
     width: 200px;
