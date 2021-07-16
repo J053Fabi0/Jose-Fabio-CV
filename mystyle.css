@@ -139,6 +139,7 @@ summary {
 
 hr {
   background-image: url("./figures/bg_colors.jpg");
+  background-color: black;
   background-repeat: repeat;
   background-size: 220px;
   border-radius: 5px;
