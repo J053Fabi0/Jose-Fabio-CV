@@ -66,6 +66,10 @@ button {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   font-size: 14px;
 }
@@ -116,6 +120,7 @@ img {
 }
 
 #profile_pic {
+  margin-left: 20px;
   border: 10px;
   border-top-color: #33658a;
   border-bottom-color: #0c7c59;
@@ -181,8 +186,11 @@ footer li,
 }
 footer li:hover,
 #languages li:hover {
-  /* background: lightblue; */
   filter: brightness(80%);
+}
+
+ul {
+  color: rgb(63, 210, 255);
 }
 
 #languages {
@@ -204,6 +212,11 @@ footer li:hover,
 
 #languages-responsive {
   display: none;
+}
+
+.summary-h2 {
+  display: inline;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 871px) {

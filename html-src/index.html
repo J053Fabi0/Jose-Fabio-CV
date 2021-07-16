@@ -82,14 +82,14 @@
         <img id="profile_pic" width="250" src="figures/Avatar.gif" />
       </div>
 
-      <h2 id="vision" data-t="main.vision"></h2>
-      <p data-t="main.intro"></p>
+      <h2 id="vision" data-t="main.vision" style="margin-bottom: 5px; margin-top: 10px"></h2>
+      <p data-t="main.intro" style="margin-top: 0px"></p>
 
       <hr />
 
       <button id="expAll" data-t="main.expandAll"></button>
 
-      <h2 data-t="main.experience.title"></h2>
+      <h2 data-t="main.experience.title" style="margin-bottom: 5px; margin-top: 20px"></h2>
 
       <div class="h1-details">
         <!-- Telegram bots -->
@@ -99,13 +99,12 @@
           <details>
             <summary>
               <span class="h3-span pointer">
-                <strong>Lana Bot</strong>&nbsp;&nbsp;
-                <i class="date" data-t="main.experience.lana-bot.time"></i>
+                <strong>Lana Bot</strong>&nbsp;&nbsp; <i class="date">2020 - <i data-t="ongoing"></i></i>
               </span>
             </summary>
 
             <div class="h3-details">
-              <img align="left" width="50" src="figures/LanaBot.png" loading="lazy" style="padding-right: 10px" />
+              <img align="left" width="50" src="figures/LanaBot.png" loading="lazy" style="margin-right: 10px" />
 
               <p data-t="main.experience.lana-bot.info"></p>
 
@@ -117,12 +116,12 @@
           <details>
             <summary>
               <span class="h3-span pointer">
-                <strong>Ensi Bot</strong>&nbsp;&nbsp; <i class="date" data-t="main.experience.lana-bot.time"></i>
+                <strong>Ensi Bot</strong>&nbsp;&nbsp; <i class="date">2020 - <i data-t="ongoing"></i></i>
               </span>
             </summary>
 
             <div class="h3-details">
-              <img align="left" width="50" src="figures/EnsiBot.png" loading="lazy" style="padding-right: 10px" />
+              <img align="left" width="50" src="figures/EnsiBot.png" loading="lazy" style="margin-right: 10px" />
 
               <p data-t="main.experience.ensi-bot.info"></p>
               <div class="separator"></div>
@@ -150,7 +149,7 @@
                 height="50"
                 src="figures/reduzcamos_carbono.png"
                 loading="lazy"
-                style="padding-right: 10px"
+                style="margin-right: 10px"
               />
 
               <p data-t="main.experience.other-projects.carbon.info"></p>
@@ -169,101 +168,128 @@
             <summary>
               <span class="h3-span pointer">
                 <strong>Telegram Support Force</strong>&nbsp;&nbsp;
-                <i class="date" data-t="main.experience.volunteer.time"></i>
+                <i class="date">2020 - <i data-t="ongoing"></i></i>
               </span>
             </summary>
 
             <div class="h3-details">
-              <img align="left" height="50" src="figures/tsf.png" loading="lazy" style="padding-right: 10px" />
-
-              <p data-t="main.experience.volunteer.info"></p>
-              <div class="separator"></div>
+              <img
+                align="left"
+                height="50"
+                src="figures/tsf.png"
+                loading="lazy"
+                style="margin-right: 10px; margin-top: 5px"
+              />
+              <p style="margin-top: 15px; margin-bottom: 25px" data-t="main.experience.volunteer.info"></p>
             </div>
           </details>
         </div>
       </div>
 
-      <br />
+      <hr style="margin-top: 20px" />
 
-      <!-- <hr> -->
+      <details>
+        <summary style="margin-top: 20px; color: rgb(63, 210, 255)">
+          <span class="h2-span pointer">
+            <h2 class="summary-h2" data-t="main.education.title"></h2>
+          </span>
+        </summary>
 
-      <!-- <details><summary><span style="cursor:pointer"><h2 style="display: inline;">Publications</h2></summary> -->
+        <!-- Tecmilenio -->
+        <div class="h1-details">
+          <details>
+            <summary style="color: #3fd2ff">
+              <span class="h3-span pointer">
+                <strong style="color: #37b9e0" data-t="main.education.software-engineer"></strong> -
+                <b style="color: #0da83c">Tecmilenio</b>&nbsp;
+                <i class="date">2020 - <i data-t="ongoing"></i></i>
+              </span>
+            </summary>
 
-      <!-- <p> -->
-      <!-- <strong>Three-Channel Electrical Impedance Spectroscopy for Field-Scale Root Phenotyping</strong>.<br> -->
-      <!-- Peruzzo L, Liu X, Chunwei C, Blancaflor BE, Zhao H, Ma X, Mary B, Iván V, Weigand M, and  Wu Y. <br> -->
-      <!-- <i>(2021) The Plant Phenome Journal</i><br> -->
-      <!-- <a href="https://doi.org/10.1002/ppj2.20021">https://doi.org/10.1002/ppj2.20021</a> -->
-      <!-- </p> -->
+            <div style="margin-left: 32px">
+              <p style="margin-top: 10px" data-t="main.education.tecmilenio-info"></p>
+            </div>
+          </details>
+        </div>
 
-      <!-- <p> -->
-      <!-- <strong>Estimation of soil classes and their relationship to grapevine vigor in a Bordeaux vineyard: advancing the practical joint use of electromagnetic induction (EMI) and NDVI datasets for precision viticulture</strong>.<br> -->
-      <!-- Hubbard SS, Schmutz M, Balde M, Falco N, Peruzzo L, Dafflon B, Léger E, and Wu Y.<br> -->
-      <!-- <i>(2021) Precision Agriculture</i><br> -->
-      <!-- <a href="https://doi.org/10.1007/s11119-021-09788-w">https://doi.org/10.1007/s11119-021-09788-w</a> -->
-      <!-- </p> -->
+        <!-- Master en Coding -->
+        <div class="h1-details">
+          <details>
+            <summary style="color: #3fd2ff">
+              <span class="h3-span pointer">
+                <strong style="color: #37b9e0">Master en Coding</strong> -
+                <b>
+                  <a style="color: #de2dbb" href="https://devf.la/master/encoding/mx" target="blank">Dev.f</a>
+                </b>
+                &nbsp;
+                <i class="date">2020 - 2021</i>
+              </span>
+            </summary>
 
-      <!-- <p> -->
-      <!-- <strong>Imaging of Plant Current Pathways for Non-invasive Root Phenotyping using a newly developed Electrical Current Source Density Approach</strong>.<br> -->
-      <!-- Peruzzo L, Chunwei C, Wu Y, Schmutz M, Mary B, Petrov P, Gregory N, Blancaflor BE, Liu X, and Hubbard SS.<br> -->
-      <!-- <i>(2020) Plant and Soil</i><br> -->
-      <!-- <a href="http://doi.org/10.1007/s11104-020-04529-w">http://doi.org/10.1007/s11104-020-04529-w</a> -->
-      <!-- </p> -->
+            <div style="margin-left: 32px">
+              <p style="margin-top: 10px"><i data-t="main.education.master-slogan"></i></p>
+              <p data-t="main.education.master-info"></p>
+              <p data-t="main.education.master-certification"></p>
+            </div>
+          </details>
+        </div>
 
-      <!-- <p> -->
-      <!-- <strong>Time-lapse monitoring of root water uptake using electrical resistivity tomography and Mise-à-la-Masse: a vineyard infiltration experiment</strong>.<br> -->
-      <!-- Mary B, Peruzzo L, Boaga J, Cenni N, Schmutz M, Wu Y, Hubbard SS, and Cassiani G.<br> -->
-      <!-- <i>(2020) SOIL</i><br> -->
-      <!-- <a href="https://doi.org/10.5194/soil-6-95-2020">https://doi.org/10.5194/soil-6-95-2020</a> -->
-      <!-- </p> -->
+        <!-- Cinta negra Android -->
+        <div class="h1-details">
+          <details>
+            <summary style="color: #3fd2ff">
+              <span class="h3-span pointer">
+                <strong style="color: #37b9e0">Cinta Negra Android</strong> -
+                <b>
+                  <a style="color: #de2dbb" href="https://devf.la/master/encoding/mx" target="blank">Dev.f</a>
+                </b>
+                &nbsp;
+                <i class="date">2017</i>
+              </span>
+            </summary>
 
-      <!-- <p> -->
-      <!-- <strong>Effects of salinity and pH on the spectral induced polarization signals of graphite particles</strong>.<br> -->
-      <!-- Wu Y, and Peruzzo L.<br> -->
-      <!-- <i>(2020) Geophysical Journal International</i><br> -->
-      <!-- <a href="https://doi.org/10.1093/gji/ggaa087">https://doi.org/10.1093/gji/ggaa087</a> -->
-      <!-- </p> -->
+            <div style="margin-left: 32px">
+              <img
+                align="left"
+                height="40"
+                src="figures/cinta-negra.png"
+                loading="lazy"
+                style="padding-right: 10px"
+              />
+              <p style="margin-top: 10px" data-t="main.education.cinta-negra-info"></p>
+              <br />
+            </div>
+          </details>
+        </div>
 
-      <!-- <p> -->
-      <!-- <strong>Small-scale characterization of vine plant root water uptake via 3-D electrical resistivity tomography and mise-à-la-masse method</strong>.<br> -->
-      <!-- Mary B, Peruzzo L, Boaga J, Schmutz M, Wu Y, Hubbard SS, and Cassiani G.<br> -->
-      <!-- <i>(2018) Hydrol. Earth Syst. Sci.</I><br> -->
-      <!-- <a href="https://doi.org/10.5194/hess-22-5427-2018">https://doi.org/10.5194/hess-22-5427-2018</a> -->
-      <!-- </p> -->
+        <!-- Cinta Roja-->
+        <div class="h1-details">
+          <details>
+            <summary style="color: #3fd2ff">
+              <span class="h3-span pointer">
+                <strong style="color: #37b9e0">Cinta Roja</strong> -
+                <b>
+                  <a style="color: #de2dbb" href="https://devf.la/master/encoding/mx" target="blank">Dev.f</a>
+                </b>
+                &nbsp;
+                <i class="date">2016</i>
+              </span>
+            </summary>
 
-      <!-- <p> -->
-      <!-- <strong>The relative importance of saturated silica sand interfacial and pore fluid geochemistry on the spectral induced polarization response</strong>.<br> -->
-      <!-- Peruzzo L, Schmutz M, Franceschi M, Wu Y, and Hubbard SS.<br> -->
-      <!-- <i>(2018) Journal of Geophysical Research: Biogeosciences</i><br> -->
-      <!-- <a href="https://doi.org/10.1029/2017JG004364">https://doi.org/10.1029/2017JG004364</a> -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <strong>Combined geophysical surveys for the characterization of a reconstructed river embankment</strong>.<br> -->
-      <!-- Busato L, Boaga J, Peruzzo L, Himi M, Cola S, Bersan S, and Cassiani G.<br> -->
-      <!-- <i>(2016) Engineering Geology</i><br> -->
-      <!-- <a href="https://doi.org/10.1016/j.enggeo.2016.06.023">https://doi.org/10.1016/j.enggeo.2016.06.023</a> -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <strong>Reviews:</strong> -->
-      <!-- <br> -->
-      <!-- <i>IEEE Transactions on Geoscience and Remote Sensing</i> (3) -->
-      <!-- <br> -->
-      <!-- <i>AGU Journal of Geophysical Research: Biogeoscinces</i> -->
-      <!-- <br> -->
-      <!-- <i>Near Surface Geophysics</i> (3) -->
-      <!-- <br> -->
-      <!-- <i>Vadose Zone Journal</i> (3) -->
-      <!-- <br> -->
-      <!-- <i>Scientfic Reports</i> (3) -->
-      <!-- <br> -->
-      <!-- <i>AGU Book Proposal</i> -->
-      <!-- <br> -->
-      <!-- <i>Archives of Agronomy and Soil Sciences</i> (2) -->
-      <!-- </p> -->
-
-      <!-- </details> -->
+            <div style="margin-left: 32px">
+              <img
+                align="left"
+                height="40"
+                src="figures/cinta-roja.png"
+                loading="lazy"
+                style="padding-right: 10px"
+              />
+              <p style="margin-top: 10px" data-t="main.education.cinta-roja-info"></p>
+              <br />
+            </div>
+          </details>
+        </div>
+      </details>
 
       <!-- <hr> -->
 
@@ -442,6 +468,7 @@
       <!-- </details> -->
 
       <!-- <hr> -->
+      <div class="separator" style="margin-bottom: 15px; margin-top: 15px"></div>
       <footer>
         <a href="http://josef5wrcfoa4neq3qgrekf7dgyqb6mzmu3be2om5zrsogw7rhhscxyd.onion/" target="blank"
           ><li><img src="figures/tor.svg" alt="Tor mirror" height="30" /></li

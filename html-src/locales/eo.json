@@ -9,11 +9,9 @@
     "experience": {
       "title": "Sperto",
       "lana-bot": {
-        "time": "2020 - Nuntempe",
         "info": "Sekvu la prezojn de viaj plej ŝataj paroj da kriptamoneroj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>Provu ĝin nun!</a>"
       },
       "ensi-bot": {
-        "time": "2020 - Nuntempe",
         "info": "Sekvu la staton kaj monon de viaj nodoj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>Provu ĝin nun!</a>"
       },
       "other-projects": {
@@ -25,9 +23,18 @@
       },
       "volunteer": {
         "title": "Volontulo",
-        "time": "2020 - Nuntempe",
-        "info": "Mi estas volontulo en la teamo de Telegram Support Force ekde junio de la 2020, pacience helpante centajn homojn kaj kunlaborante kun diversaj aliaj volontuloj."
+        "info": "Mi estas volontulo en la teamo de <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> ekde junio de la 2020, pacience helpante centajn homojn kaj kunlaborante kun diversaj aliaj volontuloj."
       }
+    },
+    "education": {
+      "title": "Edukado",
+      "software-engineer": "Programara Inĝeniero",
+      "tecmilenio-info": "Kun stipendio de 60%.",
+      "master-info": "Ĉi tiu estas la plej riĉa kurso, kiun mi faris kun <a style='color: #de2dbb' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Unujara grado, de interreta projektado ĝis backend.",
+      "master-slogan": "La plej granda programista lernejo de Latin-Ameriko.",
+      "master-certification": "<a style='color: #de2dbb' href='../figures/master.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
+      "cinta-negra-info": "Ĉi tie mi lernis fari Android aplikaĵojn per Java.",
+      "cinta-roja-info": "Ĉi tiu estis la mezmalfacila kurso kiun ili havis. Mi estis la plej juna studento: mi aĝis 15."
     }
   },
   "footer": {
@@ -36,5 +43,6 @@
     "en-href": "..",
     "es-href": "../es",
     "eo-href": "."
-  }
+  },
+  "ongoing": "Nuntempe"
 }

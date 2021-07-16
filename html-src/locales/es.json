@@ -9,11 +9,9 @@
     "experience": {
       "title": "Experiencia",
       "lana-bot": {
-        "time": "2020 - Actualmente",
         "info": "Sigue el precio de tus pares de criptomonedas favoritas del pDEX de la blockchain de <a href='https://incognito.org' target='blank'>Incógnito</a>.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>¡Pruébalo ahora!</a>"
       },
       "ensi-bot": {
-        "time": "2020 - Actualmente",
         "info": "Sigue el estado y ganancias de tus nodos de la blockchain de <a href='https://incognito.org' target='blank'>Incógnito</a>.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>¡Pruébalo ahora!</a>"
       },
       "other-projects": {
@@ -25,9 +23,18 @@
       },
       "volunteer": {
         "title": "Voluntario",
-        "time": "2020 - Actualmente",
-        "info": "Soy un voluntario del equipo Telegram Support Force desde junio del 2020, ayudando pacientemente a cientos de usuarios y colaborando con muchos otros voluntarios."
+        "info": "Soy un voluntario del equipo <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> desde junio del 2020, ayudando pacientemente a cientos de usuarios y colaborando con muchos otros voluntarios."
       }
+    },
+    "education": {
+      "title": "Educación",
+      "software-engineer": "Ingeniero de Software",
+      "tecmilenio-info": "Con una beca del 60%, la cual obtuve al ganar en segundo lugar un concurso.",
+      "master-info": "Este es el curso más enriquecedor que he tomado con <a style='color: #de2dbb' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Un curso en vivo de un año, yendo deste diseño web hasta backend.",
+      "master-slogan": "La escuela de hackers más grande de Latino América.",
+      "master-certification": "<a style='color: #de2dbb' href='../figures/master.pdf' target='blank'>Aquí está mi certificado</a>.",
+      "cinta-negra-info": "Aquí aprendí a hacer aplicaciones para Android con Java.",
+      "cinta-roja-info": "El curso intermedio que ofrecían. Fui el más joven en obtener el certificado: tenía 15 años."
     }
   },
   "footer": {
@@ -36,5 +43,6 @@
     "en-href": "..",
     "es-href": ".",
     "eo-href": "../eo"
-  }
+  },
+  "ongoing": "Actualmente"
 }

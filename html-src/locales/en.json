@@ -9,11 +9,9 @@
     "experience": {
       "title": "Experience",
       "lana-bot": {
-        "time": "2020 - Ongoing",
         "info": "Track the price of your favorite pairs of cryptocurrencies from the pDEX <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>Try it now!</a>"
       },
       "ensi-bot": {
-        "time": "2020 - Ongoing",
         "info": "Track the status and earnings of your nodes from the <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>Try it now!</a>"
       },
       "other-projects": {
@@ -25,9 +23,18 @@
       },
       "volunteer": {
         "title": "Volunteer",
-        "time": "2020 - Ongoing",
-        "info": "I’m volunteering at Telegram Support Force since June of 2020, patiently helping hundreds of users and collaborating with many other volunteers."
+        "info": "I’m volunteering at <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> since June of 2020, patiently helping hundreds of users and collaborating with many other volunteers."
       }
+    },
+    "education": {
+      "title": "Education",
+      "software-engineer": "Software Engineer",
+      "tecmilenio-info": "With a 60% scholarship, which I got by winning a contest in 2nd place.",
+      "master-info": "This is the most enriching course I've taken with <a style='color: #de2dbb' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. One year degree, from web design to backend.",
+      "master-slogan": "The Biggest hackers school of Latin America.",
+      "master-certification": "<a style='color: #de2dbb' href='figures/master.pdf' target='blank'>Here is my certification</a>.",
+      "cinta-negra-info": "Here I learned to develop applications with Java for Android devices.",
+      "cinta-roja-info": "The intermediate level course they offered. I was the youngest person to get the certification: I was 15."
     }
   },
   "footer": {
@@ -36,5 +43,6 @@
     "en-href": ".",
     "es-href": "es",
     "eo-href": "eo"
-  }
+  },
+  "ongoing": "Ongoing"
 }
