@@ -1,0 +1,28 @@
+{
+  "head": {
+    "description": "Mia nomo estas Jose Fabio. Bonvenon en mia retejo!"
+  },
+  "main": {
+    "vision": "Vizio",
+    "intro": "Saluton! Mi komencis programi kiam mi estis 10 jara, kaj ekde tiam mi decidis neniam ĉesi fari mojosajn programojn. &#128104;&zwj;&#128187;",
+    "expandAll": "Etendiĝi ĉion",
+    "experience": {
+      "title": "Sperto",
+      "lana-bot": {
+        "time": "2020 - Nuntempe",
+        "info": "Sekvu la prezojn de viaj plej ŝataj paroj da kriptamoneroj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>Provu ĝin nun!</a>"
+      },
+      "ensi-bot": {
+        "time": "2020 - Nuntempe",
+        "info": "Sekvu la staton kaj monon de viaj nodoj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>Provu ĝin nun!</a>"
+      },
+      "other-projects": {
+        "title": "Aliaj projektoj",
+        "carbon": {
+          "title": "Ni reduktu nian karbonan spuron",
+          "info": "Elektu la aferojn, kiujn vi povas aŭ volas fari, kaj vi vidos, kiel malpliiĝas via karbona spuro.<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>Vidu ĝin vi mem!</a>"
+        }
+      }
+    }
+  }
+}

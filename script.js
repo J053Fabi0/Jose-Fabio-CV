@@ -2,8 +2,19 @@
   const btn = document.getElementById("expAll");
   const details = Array.from(document.querySelectorAll("details"));
 
-  const collapseAllTxt = btn.innerHTML === "Expand all" ? "Collapse all" : "Colapsar todo";
-  const expandAllTxt = btn.innerHTML === "Expand all" ? "Expand all" : "Expandir todo";
+  // This has to be done because of the translations
+  const collapseAllTxt =
+    btn.innerHTML === "Expand all"
+      ? "Collapse all"
+      : btn.innerHTML === "Expandir todo"
+      ? "Colapsar todo"
+      : "Maletendiĝi ĉion";
+  const expandAllTxt =
+    btn.innerHTML === "Expand all"
+      ? "Expand all"
+      : btn.innerHTML === "Expandir todo"
+      ? "Expandir todo"
+      : "Etendiĝi ĉion";
 
   btn.addEventListener(
     "click",
