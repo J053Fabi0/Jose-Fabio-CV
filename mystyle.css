@@ -21,7 +21,6 @@ body {
   background-size: 220px;
   margin: auto;
   position: relative;
-  font-size: 100%;
 }
 
 body {
@@ -43,7 +42,7 @@ h1 {
   padding: 10px 0px 30px 0px;
   color: white;
   text-shadow: 4px 4px 4px black;
-  font-size: 4.375em;
+  font-size: 70px;
   background-image: url("figures/bg_blue.jpg");
   background-size: 100%;
   border-radius: 10px;
@@ -52,8 +51,9 @@ h1 {
 }
 
 h2 {
+  clear: left;
   color: rgb(67, 154, 217);
-  font-size: 2.1875em;
+  font-size: 35px;
 }
 
 h3 {
@@ -71,20 +71,20 @@ a:hover {
 }
 
 button {
-  font-size: 0.875em;
+  font-size: 14px;
 }
 
 .h2-span {
-  font-size: 1.625em;
+  font-size: 26px;
   color: rgb(63, 210, 255);
 }
 
 .h3-span {
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 .date {
-  font-size: 1.125em;
+  font-size: 18px;
   white-space: nowrap;
 }
 
@@ -105,7 +105,7 @@ button {
 }
 
 p {
-  font-size: 1.375em;
+  font-size: 22px;
 }
 
 p,
@@ -178,10 +178,12 @@ footer,
   clear: both;
   padding: 2em 0;
   padding: 0;
+  font-size: large;
 }
 footer li,
 #languages li {
   display: inline-block;
+  font-size: x-large;
 }
 footer li:hover,
 #languages li:hover {
@@ -216,12 +218,11 @@ ul {
 .summary-h2 {
   display: inline;
   vertical-align: middle;
-  color: rgb(67, 154, 217);
 }
 
 @media screen and (max-width: 871px) {
   h1 {
-    font-size: 3.125em;
+    font-size: 50px;
     height: 55px;
     padding: 5px 0px 20px 0px;
   }
@@ -249,7 +250,7 @@ ul {
 
   h1 {
     height: 40px;
-    font-size: 2.8125em;
+    font-size: 45px;
     padding: 10px 0px 30px 0px;
   }
 
