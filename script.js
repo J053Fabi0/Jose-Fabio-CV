@@ -2,11 +2,14 @@
   const btn = document.getElementById("expAll");
   const details = Array.from(document.querySelectorAll("details"));
 
+  const collapseAllTxt = btn.innerHTML === "Expand all" ? "Collapse all" : "Colapsar todo";
+  const expandAllTxt = btn.innerHTML === "Expand all" ? "Expand all" : "Expandir todo";
+
   btn.addEventListener(
     "click",
     function () {
       const newValue = !details[0].open;
-      btn.innerHTML = newValue ? "Collapse all" : "Expand all";
+      btn.innerHTML = newValue ? collapseAllTxt : expandAllTxt;
 
       for (let obj of details) obj.open = newValue;
     },
@@ -14,14 +17,14 @@
   );
 
   function checkIfButtonCanChangeText() {
-    if (btn.innerHTML === "Collapse all") {
+    if (btn.innerHTML === collapseAllTxt) {
       let openNumber = 0;
       for (let temp of details) if (temp.open) openNumber++;
-      if (openNumber <= 1) btn.innerHTML = "Expand all";
+      if (openNumber <= 1) btn.innerHTML = expandAllTxt;
     } else {
       let closedNumber = 0;
       for (let temp of details) if (!temp.open) closedNumber++;
-      if (closedNumber <= 1) btn.innerHTML = "Collapse all";
+      if (closedNumber <= 1) btn.innerHTML = collapseAllTxt;
     }
   }
   for (let obj of details) obj.addEventListener("click", checkIfButtonCanChangeText);

@@ -1,0 +1,28 @@
+{
+  "head": {
+    "description": "Mi nombre es Jose Fabio. ¡Bienvenido a mi sitio web!"
+  },
+  "main": {
+    "vision": "Visión",
+    "intro": "¡Hola! Comencé a programar a los 10 años, y desde entonces me propuse como meta de vida nunca dejar de crear software asombroso. &#128104;&zwj;&#128187;",
+    "expandAll": "Expandir todo",
+    "experience": {
+      "title": "Experiencia",
+      "lana-bot": {
+        "time": "2020 - Actualmente",
+        "info": "Sigue el precio de tus pares de criptomonedas favoritas del pDEX de la blockchain de <a href='https://incognito.org' target='blank'>Incógnito</a>.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>¡Pruébalo ahora!</a>"
+      },
+      "ensi-bot": {
+        "time": "2020 - Actualmente",
+        "info": "Sigue el estado y ganancias de tus nodos de la blockchain de <a href='https://incognito.org' target='blank'>Incógnito</a>.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>¡Pruébalo ahora!</a>"
+      },
+      "other-projects": {
+        "title": "Otros proyectos",
+        "carbon": {
+          "title": "Reduzcamos nuestra huella de carbono",
+          "info": "Selecciona las cosas que puedes o quieres hacer, ¡y verás cómo tu barra de huella de carbono disminuye!<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>¡Velo tú mismo!</a>"
+        }
+      }
+    }
+  }
+}
