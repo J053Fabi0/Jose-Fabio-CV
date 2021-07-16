@@ -30,7 +30,7 @@ body {
   margin: 0 auto; /* in case you want to set a fixed width on this as well */
   padding: 15px;
   border-radius: 10px;
-  background-color: rgba(40, 40, 40, 0.95);
+  background-color: rgba(50, 58, 61, 0.93);
   box-shadow: 0px 0px 8px 5px black;
   -webkit-box-shadow: 0px 0px 8px 5px black;
 }
@@ -51,7 +51,7 @@ h1 {
 
 h2 {
   clear: left;
-  color: #007dd6;
+  color: rgb(67, 154, 217);
   font-size: 35px;
 }
 
@@ -61,7 +61,7 @@ h3 {
 
 a,
 button {
-  color: #26a4e4;
+  color: rgb(63, 210, 255);
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ button {
 
 .h2-span {
   font-size: 26px;
-  color: #26a4e4;
+  color: rgb(63, 210, 255);
 }
 
 .h3-span {
