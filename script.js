@@ -19,10 +19,10 @@
   btn.addEventListener(
     "click",
     function () {
-      const newValue = !details[0].open;
-      btn.innerHTML = newValue ? collapseAllTxt : expandAllTxt;
+      const expanding = btn.innerHTML === expandAllTxt;
+      btn.innerHTML = expanding ? collapseAllTxt : expandAllTxt;
 
-      for (let obj of details) obj.open = newValue;
+      for (let obj of details) obj.open = expanding;
     },
     false
   );
