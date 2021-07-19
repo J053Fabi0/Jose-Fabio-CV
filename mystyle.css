@@ -1,14 +1,10 @@
 :root {
-  --color_background: #ddd5d5;
-  --color_background_light: #fff3e6;
-  --color_background_pampas: #f4f2ee;
-  --color_background_whitelinen: #f8f0e8;
-  --color_backgraund_softBlue: #f2f4ff;
-  --color_niceRed: #b30000;
-  --color_niceBlue: #6263a7;
-  --color_niceBlueSoft: #7c7db6;
-  --color_niceBlueMalhela: #6263a7;
-  --color_olivine: #9ab973;
+  --color-blue-h2: rgb(67, 154, 217);
+  --color-blue-h2-span: rgb(63, 210, 255);
+  --color-devf: #de2dbb;
+  --color-main-background: rgba(50, 58, 61, 0.93);
+  --color-light-blue-summary: #3fd2ff;
+  --color-tecmilenio: #0da83c;
 }
 
 html,
@@ -31,7 +27,7 @@ body {
   margin: 0 auto; /* in case you want to set a fixed width on this as well */
   padding: 15px;
   border-radius: 10px;
-  background-color: rgba(50, 58, 61, 0.93);
+  background-color: var(--color-main-background);
   box-shadow: 0px 0px 8px 5px black;
   -webkit-box-shadow: 0px 0px 8px 5px black;
 }
@@ -52,17 +48,13 @@ h1 {
 
 h2 {
   clear: left;
-  color: rgb(67, 154, 217);
+  color: var(--color-blue-h2);
   font-size: 35px;
-}
-
-h3 {
-  color: black;
 }
 
 a,
 button {
-  color: rgb(63, 210, 255);
+  color: var(--color-blue-h2-span);
   text-decoration: none;
 }
 
@@ -76,7 +68,7 @@ button {
 
 .h2-span {
   font-size: 26px;
-  color: rgb(63, 210, 255);
+  color: var(--color-blue-h2-span);
 }
 
 .h3-span {
@@ -104,12 +96,14 @@ button {
   margin-left: 15px;
 }
 
-p {
+p,
+table {
   font-size: 22px;
 }
 
 p,
-span {
+span,
+table {
   text-align: justify;
   text-justify: inter-word;
   color: white;
@@ -154,14 +148,7 @@ button {
   cursor: pointer;
 }
 
-html,
-body,
-form,
-span,
-h1,
-h2,
-h3,
-p {
+* {
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -176,8 +163,6 @@ footer,
 #languages {
   text-align: center;
   font-variant: small-caps;
-  clear: both;
-  padding: 2em 0;
   padding: 0;
   font-size: large;
 }
@@ -191,10 +176,6 @@ footer li:hover,
   filter: brightness(80%);
 }
 
-ul {
-  color: rgb(63, 210, 255);
-}
-
 #languages {
   text-align: right;
   position: absolute;
@@ -205,8 +186,13 @@ ul {
 }
 
 #languages img,
-#languages-responsive img {
+#languages-responsive img,
+.flag {
   border-radius: 5px;
+}
+
+#languages img,
+#languages-responsive img {
   border: 2px;
   border-style: solid;
   border-color: black;
@@ -221,80 +207,33 @@ ul {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 871px) {
-  h1 {
-    font-size: 50px;
-    height: 55px;
-    padding: 5px 0px 20px 0px;
-  }
+tbody > tr:nth-child(odd) {
+  background-color: rgba(50, 50, 50, 1);
 }
 
-@media screen and (max-width: 640px) {
-  #profile_pic {
-    width: 200px;
-  }
+tbody > tr:nth-child(even) {
+  background-color: rgba(70, 70, 70, 1);
 }
 
-@media screen and (max-width: 575px) {
-  #profile_pic_div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-  }
-
-  #profile_pic {
-    margin-left: 0px;
-    padding: 0px;
-    float: none;
-  }
-
-  h1 {
-    height: 40px;
-    font-size: 45px;
-    padding: 10px 0px 30px 0px;
-  }
-
-  p,
-  span {
-    text-align: left;
-  }
-
-  body,
-  html {
-    width: 97%;
-  }
-
-  .h1-details {
-    margin-left: 10px;
-  }
-
-  .h2-details {
-    margin-left: 15px;
-  }
-
-  #main {
-    box-shadow: 0px 0px 10px 1px black;
-    -webkit-box-shadow: 0px 0px 10px 1px black;
-  }
-
-  #vision {
-    display: none;
-  }
+td:first-child {
+  width: 160px;
 }
 
-@media screen and (max-width: 1007px) {
-  #languages {
-    display: none;
-  }
+td:first-child > div {
+  display: flex;
+  align-items: center;
+}
 
-  #languages-responsive {
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
+table {
+  width: 100%;
+}
 
-  h1 {
-    margin-bottom: 0px;
-  }
+table,
+td {
+  border: 1px solid black;
+}
+
+table p {
+  margin: 0;
+  padding: 0px 0px 2px 10px;
 }

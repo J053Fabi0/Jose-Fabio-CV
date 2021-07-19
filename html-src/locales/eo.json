@@ -30,16 +30,25 @@
       "title": "Edukado",
       "software-engineer": "Programara Inĝeniero",
       "tecmilenio-info": "Kun stipendio de 60%.",
-      "master-info": "Ĉi tiu estas la plej riĉa kurso, kiun mi faris kun <a style='color: #de2dbb' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Unujara grado, de interreta projektado ĝis backend.",
+      "master-info": "Ĉi tiu estas la plej riĉa kurso, kiun mi faris kun <a style='color: var(--color-devf)' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Unujara grado, de interreta projektado ĝis backend.",
       "master-slogan": "La plej granda programista lernejo de Latin-Ameriko.",
-      "master-certification": "<a style='color: #de2dbb' href='../figures/master.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
+      "master-certification": "<a style='color: var(--color-devf)' href='../figures/master.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
       "cinta-negra-info": "Ĉi tie mi lernis fari Android aplikaĵojn per Java.",
       "cinta-roja-info": "Ĉi tiu estis la meza kurso kiun ili havis. Mi estis la plej juna studento: mi aĝis 15."
+    },
+    "languages": {
+      "title": "Lingvoj",
+      "intro": "Fakte mi estas poligloto. Poligloto signifas iu kiu scias 4 aŭ pli lingvojn.",
+      "native": "Denaska",
+      "level-english": "B2 - Meza",
+      "level-esperanto": "B1 - Malsupra meza",
+      "level-german": "A1 - Komencanto"
     }
   },
   "footer": {
     "english": "Angla",
     "spanish": "Hispana",
+    "german": "Germana",
     "en-href": "..",
     "es-href": "../es",
     "eo-href": "."

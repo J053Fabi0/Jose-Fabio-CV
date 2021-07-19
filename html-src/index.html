@@ -3,6 +3,8 @@
   <head>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="percentage-bars.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" media="screen" />
 
     <!-- Primary Meta Tags -->
     <meta charset="UTF-8" />
@@ -51,44 +53,50 @@
   </head>
 
   <body>
+    <!-- This div has the languages buttons in desktop view -->
     <div id="languages">
       <a data-attr-t href-t="footer.en-href" href="index.html"
-        ><li><img src="figures/flags/en.svg" data-attr-t alt-t="footer.english" height="30" /></li
+        ><li><img src="figures/flags/en.svg" data-attr-t alt-t="footer.english" height="30px" /></li
       ></a>
       <a data-attr-t href-t="footer.es-href" href="es"
-        ><li><img src="figures/flags/es_low.png" data-attr-t alt-t="footer.spanish" height="30" /></li
+        ><li><img src="figures/flags/es.png" data-attr-t alt-t="footer.spanish" height="30px" /></li
       ></a>
       <a data-attr-t href-t="footer.eo-href" href="eo"
-        ><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30" /></li
+        ><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30px" /></li
       ></a>
     </div>
 
     <h1>Jose Fabio</h1>
 
+    <!-- This div has the languages buttons in mobile view -->
     <footer id="languages-responsive">
       <a data-attr-t href-t="footer.en-href" href="index.html"
-        ><li><img src="figures/flags/en.svg" data-attr-t alt-t="footer.english" height="30" /></li
+        ><li><img src="figures/flags/en.svg" data-attr-t alt-t="footer.english" height="30px" /></li
       ></a>
       <a data-attr-t href-t="footer.es-href" href="es"
-        ><li><img src="figures/flags/es_low.png" data-attr-t alt-t="footer.spanish" height="30" /></li
+        ><li><img src="figures/flags/es.png" data-attr-t alt-t="footer.spanish" height="30px" /></li
       ></a>
       <a data-attr-t href-t="footer.eo-href" href="eo"
-        ><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30" /></li
+        ><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30px" /></li
       ></a>
     </footer>
 
+    <!-- Main -->
     <div id="main">
+      <!-- Profile pic -->
       <div id="profile_pic_div">
-        <img id="profile_pic" width="250" src="figures/Avatar.gif" />
+        <img id="profile_pic" width="250px" src="figures/Avatar.gif" />
       </div>
 
+      <!-- Vision -->
       <h2 id="vision" data-t="main.vision" style="margin-bottom: 5px; margin-top: 10px"></h2>
       <p data-t="main.intro" style="margin-top: 0px"></p>
 
-      <hr />
+      <hr style="margin-bottom: 0" />
 
       <button id="expAll" data-t="main.expandAll"></button>
 
+      <!-- Experience -->
       <h2 data-t="main.experience.title" style="margin-bottom: 5px; margin-top: 20px"></h2>
 
       <div class="h1-details">
@@ -104,7 +112,7 @@
             </summary>
 
             <div class="h3-details">
-              <img align="left" width="50" src="figures/LanaBot.png" loading="lazy" style="margin-right: 10px" />
+              <img align="left" width="50px" src="figures/LanaBot.png" loading="lazy" style="margin-right: 10px" />
 
               <p data-t="main.experience.lana-bot.info"></p>
 
@@ -121,7 +129,7 @@
             </summary>
 
             <div class="h3-details">
-              <img align="left" width="50" src="figures/EnsiBot.png" loading="lazy" style="margin-right: 10px" />
+              <img align="left" width="50px" src="figures/EnsiBot.png" loading="lazy" style="margin-right: 10px" />
 
               <p data-t="main.experience.ensi-bot.info"></p>
               <div class="separator"></div>
@@ -146,7 +154,7 @@
             <div class="h3-details">
               <img
                 align="left"
-                height="50"
+                height="50px"
                 src="figures/reduzcamos_carbono.png"
                 loading="lazy"
                 style="margin-right: 10px"
@@ -188,8 +196,9 @@
 
       <hr style="margin-top: 20px" />
 
+      <!-- Education -->
       <details>
-        <summary style="margin-top: 20px; color: rgb(63, 210, 255)">
+        <summary style="margin-top: 20px; color: var(--color-blue-h2-span)">
           <span class="h2-span pointer">
             <h2 class="summary-h2" data-t="main.education.title"></h2>
           </span>
@@ -198,10 +207,10 @@
         <!-- Tecmilenio -->
         <div class="h1-details">
           <details>
-            <summary style="color: #3fd2ff">
+            <summary style="color: var(--color-light-blue-summary)">
               <span class="h3-span pointer">
                 <strong style="color: #37b9e0" data-t="main.education.software-engineer"></strong> -
-                <b style="color: #0da83c">Tecmilenio</b>&nbsp;
+                <b style="color: var(--color-tecmilenio)">Tecmilenio</b>&nbsp;
                 <i class="date">2020 - <i data-t="ongoing"></i></i>
               </span>
             </summary>
@@ -218,13 +227,19 @@
             <summary style="color: #3fd2ff">
               <span class="h3-span pointer">
                 <strong style="color: #37b9e0">Master en Coding</strong> -
-                <b style="color: #de2dbb">Dev.f</b>
+                <b style="color: var(--color-devf)">Dev.f</b>
                 <i class="date">2020 - 2021</i>
               </span>
             </summary>
 
             <div style="margin-left: 32px">
-              <img align="left" height="40" src="figures/master.png" loading="lazy" style="padding-right: 10px" />
+              <img
+                align="left"
+                height="40px"
+                src="figures/master.png"
+                loading="lazy"
+                style="padding-right: 10px"
+              />
               <p style="margin-top: 10px"><i data-t="main.education.master-slogan"></i></p>
               <p data-t="main.education.master-info"></p>
               <p data-t="main.education.master-certification"></p>
@@ -238,7 +253,7 @@
             <summary style="color: #3fd2ff">
               <span class="h3-span pointer">
                 <strong style="color: #37b9e0">Cinta Negra Android</strong> -
-                <b style="color: #de2dbb">Dev.f</b>
+                <b style="color: var(--color-devf)">Dev.f</b>
                 <i class="date">2017</i>
               </span>
             </summary>
@@ -246,7 +261,7 @@
             <div style="margin-left: 32px">
               <img
                 align="left"
-                height="40"
+                height="40px"
                 src="figures/cinta-negra.png"
                 loading="lazy"
                 style="padding-right: 10px"
@@ -263,7 +278,7 @@
             <summary style="color: #3fd2ff">
               <span class="h3-span pointer">
                 <strong style="color: #37b9e0">Cinta Roja</strong> -
-                <b style="color: #de2dbb">Dev.f</b>
+                <b style="color: var(--color-devf)">Dev.f</b>
                 <i class="date">2016</i>
               </span>
             </summary>
@@ -271,7 +286,7 @@
             <div style="margin-left: 32px">
               <img
                 align="left"
-                height="40"
+                height="40px"
                 src="figures/cinta-roja.png"
                 loading="lazy"
                 style="padding-right: 10px"
@@ -283,193 +298,95 @@
         </div>
       </details>
 
-      <!-- <hr> -->
+      <hr style="margin-top: 20px" />
 
-      <!-- <details><summary><span style="cursor:pointer"><h2 style="display: inline;">Conferences and Events</h2></summary> -->
+      <!-- Languages -->
+      <details>
+        <summary style="margin-top: 20px; color: var(--color-blue-h2-span)">
+          <span class="h2-span pointer">
+            <h2 class="summary-h2" data-t="main.languages.title"></h2>
+          </span>
+        </summary>
 
-      <!-- <p> -->
-      <!-- <strong>4th International Workshop on Induced Polarization</strong>, Aarhus, Denmark, 6 - 8 June 2016<br> -->
-      <!-- Poster, <i>Evaluation of copper mobility with SIP and geochemical analysis: first results</i> -->
-      <!-- </p> -->
+        <div class="h1-details">
+          <p data-t="main.languages.intro"></p>
 
-      <!-- <p> -->
-      <!-- <strong>2016 American Geophysical Union Fall Meeting</strong>, San Francisco, USA (CA), 12 - 16 December 2016<br> -->
-      <!-- Poster, <i>Characterization of copper concentration in sand and clay using SIP measurements</i> -->
-      <!-- </p> -->
+          <table>
+            <tr>
+              <td>
+                <div>
+                  <img src="figures/flags/es.png" data-attr-t alt-t="footer.spanish" height="20px" class="flag" />
+                  <p data-t="footer.spanish"></p>
+                </div>
+              </td>
+              <td>
+                <div class="bar">
+                  <div class="background-bar"></div>
+                  <div class="fill-bar" style="width: 100%"></div>
+                  <p data-t="main.languages.native"></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <img src="figures/flags/en.svg" data-attr-t alt-t="footer.english" height="20px" class="flag" />
+                  <p data-t="footer.english"></p>
+                </div>
+              </td>
+              <td>
+                <div class="bar">
+                  <div class="background-bar"></div>
+                  <div class="fill-bar" style="width: 66.666%"></div>
+                  <p data-t="main.languages.level-english"></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <img src="figures/flags/eo.svg" alt="Esperanto" height="20px" class="flag" />
+                  <p>Esperanto</p>
+                </div>
+              </td>
+              <td>
+                <div class="bar">
+                  <div class="background-bar"></div>
+                  <div class="fill-bar" style="width: 50%"></div>
+                  <p data-t="main.languages.level-esperanto"></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <img src="figures/flags/de.svg" data-attr-t alt-t="footer.german" height="20px" class="flag" />
+                  <p data-t="footer.german"></p>
+                </div>
+              </td>
+              <td>
+                <div class="bar">
+                  <div class="background-bar"></div>
+                  <div class="fill-bar" style="width: 16.666%"></div>
+                  <p data-t="main.languages.level-german"></p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </details>
 
-      <!-- <p> -->
-      <!-- <strong>5th International Workshop on Induced Polarization</strong>, Rutgers Univ. - Newark, USA (NJ), 3 - 5 October 2018<br> -->
-      <!-- Poster, <i>Bioelectrical impedance spectroscopy and ERT plant-soil system characterization</i> -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <strong>2018 Society of Exploration Geophysicists Annual Meeting</strong>, Anaheim, USA (CA), 14 - 19 October 2018<br> -->
-      <!-- Talk, <i>Geoelectrical investigation of root-soil interaction</i> -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <b>Machineries of Doubt – Climate, Cigarettes, Confusionnfusion</b><br> -->
-      <!-- EESA at Berkeley Laboratory, January 2020<br> -->
-      <!-- Dr. John Mashey -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <b>The carbon balance of forests from machine learning using age and climate</b><br> -->
-      <!-- Distinguished Scientist Seminar Series, EESA at Berkeley Laboratory, July 2018<br> -->
-      <!-- Dr. Philippe Ciais -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <b>Api, agricoltura e pesticidi</b><br> -->
-      <!-- <i>Bees, agriculture and pesticides</i><br> -->
-      <!-- Symposium of International Society of Doctors for Environment, Padova, September 2015<br> -->
-      <!-- Prof. Gianni Tamino, Dr. Stefano Cremasco, and Dr. Carmelo Motta -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- <b>Zolle, storie di tuberi, graminacee e terre coltivate</b><br> -->
-      <!-- <i>Soil clumps, stories of tubers, grasses, and croplands</i><br> -->
-      <!-- Book presentation and discussion, at the botanic garden of Padova, May 2015<br> -->
-      <!-- Prof. Stefano Bocchi, Prof. Francesco Morari, and Prof. Telmo Pievani -->
-      <!-- </p> -->
-
-      <!-- </details> -->
-
-      <!-- <hr> -->
-
-      <!-- <details> -->
-      <!-- <summary><span style="cursor:pointer"><h2 style="display: inline;">Computer interests</h2></summary> -->
-      <!-- <p> -->
-      <!-- Python, Rust, MATLAB, SQLite, GIT, Geophysical Modeling and Inversion (BERT, R3t, R2, pyGIMLI), Parameter Estimation and Uncertainty Analysis (PEST, Python), Web Scraping, Geochemical modeling (PHREEQC), Mesh generation (Gmsh), Bash and util-linux, LaTex, InkScape, MS Office. -->
-      <!-- Basic level: C, SSH, and HTML. -->
-      <!-- </p> -->
-      <!-- </details> -->
-
-      <!-- <hr> -->
-
-      <!-- <details> -->
-      <!-- <summary><span style="cursor:pointer"><h2 style="display: inline;">More about me</h2></summary> -->
-      <!-- <img align="right" width="500" src="figures/wedding.jpg" loading="lazy"> -->
-      <!-- <h3>Childhood in Italy</h3> -->
-
-      <!-- <p> -->
-      <!-- I was born in 1989 in Vicenza, in the northeastern part of Italy. -->
-      <!-- I grew up in the country town of Dueville, about 20 km north of Vicenza, along the spring belt of the Alps. -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- My parents passed down to me the passion for outdoor activities and traveling. -->
-      <!-- I often spent the weekend relaxing outdoor and fishing with my father and brother, and my mother organized unforgettable travels. -->
-      <!-- </p> -->
-
-      <!-- <p> -->
-      <!-- My wife and I got married in Trieste on a sunny day in February 2019. -->
-      <!-- </p> -->
-
-      <!-- <h3>Sports</h3> -->
-      <!-- <p> -->
-      <!-- I have practiced and enjoyed different sports. -->
-      <!-- As a child I played soccer for a couple of years, but I then preferred basketball, which I played for 15 years and gave me great companions and memories. -->
-      <!-- In recent years, my brother and I took up climbing and biking with some friends. -->
-      <!-- These hobbies are also a better fit for my recent periods abroad and have been easier to share with the people I met. -->
-      <!-- Nevertheless, I still love to play basketball when I get the chance. -->
-      <!-- During the one and a half years I spent in Bordeaux, a colleague and I took advantage of the college swimming pool and regularly practiced swimming, especially early in the morning - quite refreshing, not sure where we found the motivation to start though :) -->
-      <!-- </p> -->
-
-      <!-- <h3>Scientific and Technical Books I Liked</h3> -->
-      <!-- <p> -->
-      <!-- <ul> -->
-      <!-- <ol>Numerical Recipes, The Art of Scientific Computing, by W. H. Press, B. P. Flannery, S. A. Teukolsky, and W. T. Vetterling.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Conservative Finite-Difference Methods on General Grids, by Mikhail Shashkov</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Quantum Enigma: Physics encounters consciousness, by Bruce Rosenblum and Fred Kuttener.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Div, Grad, Curl and All That - An Informal Text on Vector Calculus, by Harry Moritz Schey.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Linear Algebra and Its Applications, by Gilbert Strang.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Linear Algebra and Learning from Data, by Gilbert Strang.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Geophysical Data Analysis: Discrete Inverse Theory, by William Menke.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Hydrogeophysics, by Yorum Rubin and Susan S. Hubbard.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Calibration and Uncertainty Analysis of Complex Environmental Problems, Doherty John.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The Fourier Transform and its Applications, by Brad Osgood.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The Craft of Scientific Writing, by Michael Alley. </ol> -->
-      <!-- <br> -->
-      <!-- <ol>Introduction to Mathematical Statistics, by Paul G. Hoel.</ol> -->
-      <!-- </ul> -->
-      <!-- </p> -->
-      <!-- <details> <summary> -->
-      <!-- <span style="cursor:pointer">Some other Books</span></summary> -->
-      <!-- <p> -->
-      <!-- <ul> -->
-      <!-- <ol>Where We Go from Here, by Bernie Sanders. 2018.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The alchemist, by Paulo Coelho. 1988.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>By the river Piedra I sat down and cried, by Paulo Coelho. 1994.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The pilgrimage, by Paulo Coelho. 1987.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The name of the rose, by Umberto Eco. 1980.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Gulliver's Travels, by Jonathan Swift. 1726.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The red lines, by Federico Rampini. 2017.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Tender to the bone: growing up at the table, by Ruth Reichl. 1998.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Embers, by Sándor Márai. 1942.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>On the Black Hill, by Bruce Chatwin. 1982.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The royal game (Chess Story), by Stefan Zweig. 1942.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Hanta Yo, by Ruth Beebe Hill. 1979.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Sophie's World, by Jostein Gaarder. 1991.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>Democracy and its Limits, by Sabino Cassese. 2017.</ol> -->
-      <!-- <br> -->
-      <!-- <ol>The Life and Games of Mikhail Tal, by Mikhail Tal. 1997.</ol> -->
-      <!-- </ul> -->
-      <!-- </p> -->
-      <!-- </details> -->
-
-      <!-- <h3>Websites I Recommend</h3> -->
-      <!-- <p> -->
-      <!-- <ul> -->
-      <!-- <ol><strong>Barry Smiler</strong>, likely the best website on climate change I encountered so far, with a comprehensive and well-curated list of notable scientific and governmental resources, but also videos and more. -->
-      <!-- <a href="https://barrysmiler.com/scenarios.php"> Smiler's website.</a></ol> -->
-      <!-- <br> -->
-      <!-- <ol><strong>ContraPoints</strong>, a talented and knowledgeable youtuber whose videos explore topics such as social justice, politics, and philosophy. -->
-      <!-- <a href="https://www.youtube.com/user/ContraPoints/featured"> ContraPoints Homepage.</a></ol></ol> -->
-      <!-- </ul> -->
-      <!-- </p> -->
-
-      <!-- <h3>Favorite Artists</h3> -->
-      <!-- <p> -->
-      <!-- Karl Wilhelm Diefenbach, Franz von Stuck, Egon Schiele, Mariano Fortuny (The Wagnerian Parsifal cycle by Mariano Fortuny, at Palazzo Fortuny in Venice). -->
-      <!-- </p> -->
-
-      <!-- </details> -->
-
-      <!-- <hr> -->
       <div class="separator" style="margin-bottom: 15px; margin-top: 15px"></div>
+
       <footer>
         <a href="http://josef5wrcfoa4neq3qgrekf7dgyqb6mzmu3be2om5zrsogw7rhhscxyd.onion/" target="blank"
-          ><li><img src="figures/tor.svg" alt="Tor mirror" height="30" /></li
+          ><li><img src="figures/tor.svg" alt="Tor mirror" height="30px" /></li
         ></a>
         <a href="https://t.me/senorbinario" target="blank"
-          ><li><img src="figures/Telegram_logo.svg" alt="Telegram" height="25" /></li
+          ><li><img src="figures/Telegram_logo.svg" alt="Telegram" height="25px" /></li
         ></a>
         <a href="https://github.com/J053Fabi0/Jose-Fabio-CV" target="blank"
-          ><li><img src="figures/Git_icon.svg" alt="GitHub" height="27" /></li
+          ><li><img src="figures/Git_icon.svg" alt="GitHub" height="27px" /></li
         ></a>
       </footer>
     </div>

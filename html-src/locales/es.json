@@ -30,16 +30,25 @@
       "title": "Educación",
       "software-engineer": "Ingeniero de Software",
       "tecmilenio-info": "Con una beca del 60%, la cual obtuve al ganar en segundo lugar un concurso.",
-      "master-info": "Este es el curso más enriquecedor que he tomado con <a style='color: #de2dbb' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Un curso en vivo de un año, yendo deste diseño web hasta backend.",
+      "master-info": "Este es el curso más enriquecedor que he tomado con <a style='color: var(--color-devf)' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Un curso en vivo de un año, yendo deste diseño web hasta backend.",
       "master-slogan": "La escuela de hackers más grande de Latino América.",
-      "master-certification": "<a style='color: #de2dbb' href='../figures/master.pdf' target='blank'>Aquí está mi certificado</a>.",
+      "master-certification": "<a style='color: var(--color-devf)' href='../figures/master.pdf' target='blank'>Aquí está mi certificado</a>.",
       "cinta-negra-info": "Aquí aprendí a hacer aplicaciones para Android con Java.",
       "cinta-roja-info": "El curso intermedio que ofrecían. Fui el más joven en obtener el certificado: tenía 15 años."
+    },
+    "languages": {
+      "title": "Idiomas",
+      "intro": "Soy de hecho un políglota, que por definición es alguien que sabe 4 o más idiomas.",
+      "native": "Nativo",
+      "level-english": "B2 - Intermedio",
+      "level-esperanto": "B1 - Intermedio principiante",
+      "level-german": "A1 - Principiante"
     }
   },
   "footer": {
     "english": "Inglés",
     "spanish": "Español",
+    "german": "Alemán",
     "en-href": "..",
     "es-href": ".",
     "eo-href": "../eo"
