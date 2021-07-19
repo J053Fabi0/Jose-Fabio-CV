@@ -40,3 +40,14 @@
   }
   for (let obj of details) obj.addEventListener("click", checkIfButtonCanChangeText);
 })();
+
+// Hide all the elements with class "display-none"
+(function () {
+  const objs = document.getElementsByClassName("display-none");
+  for (let obj of objs) obj.style.display = "none";
+})();
+
+function showOrHide(id, default_display) {
+  const element = document.getElementById(id);
+  element.style.display = element.style.display !== "none" ? "none" : default_display;
+}

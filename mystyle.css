@@ -83,6 +83,9 @@ button {
 .pointer {
   cursor: pointer;
 }
+.context-menu {
+  cursor: context-menu;
+}
 
 .h1-details {
   margin-left: 20px;
@@ -207,11 +210,11 @@ footer li:hover,
   vertical-align: middle;
 }
 
-tbody > tr:nth-child(odd) {
+.odd {
   background-color: rgba(50, 50, 50, 1);
 }
 
-tbody > tr:nth-child(even) {
+.even {
   background-color: rgba(70, 70, 70, 1);
 }
 
@@ -236,4 +239,9 @@ td {
 table p {
   margin: 0;
   padding: 0px 10px 2px 10px;
+}
+
+td > p {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }

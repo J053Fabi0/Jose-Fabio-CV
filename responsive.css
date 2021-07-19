@@ -59,6 +59,13 @@
   #vision {
     display: none;
   }
+
+  /* #english-explanation, */
+  /* #esperanto-explanation, */
+  /* #german-explanation, */
+  /* #spanish-explanation { */
+  /*   display: table-row !important; */
+  /* } */
 }
 
 @media screen and (max-width: 1007px) {

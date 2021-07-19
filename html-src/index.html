@@ -310,9 +310,11 @@
 
         <div class="h1-details">
           <p data-t="main.languages.intro"></p>
+          <p><i data-t="main.languages.click-to-see-more"></i></p>
 
           <table>
-            <tr>
+            <!-- Spanish -->
+            <tr onclick="showOrHide('spanish-explanation', 'table-row')" class="context-menu odd">
               <td>
                 <div>
                   <img src="figures/flags/es.png" data-attr-t alt-t="footer.spanish" height="20px" class="flag" />
@@ -323,13 +325,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" style="width: 100%" id="spanish-bar"></div>
-                  <div class="bar-text">
-                    <p data-t="main.languages.native"></p>
-                  </div>
+                  <div class="bar-text"><p data-t="main.languages.native"></p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="odd" id="spanish-explanation">
+              <td colspan="2"><p data-t="main.languages.spanish-explanation"></p></td>
+            </tr>
+
+            <!-- English -->
+            <tr onclick="showOrHide('english-explanation', 'table-row')" class="context-menu even">
               <td>
                 <div>
                   <img src="figures/flags/en.svg" data-attr-t alt-t="footer.english" height="20px" class="flag" />
@@ -340,13 +345,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="english-bar"></div>
-                  <div class="bar-text">
-                    <p data-t="main.languages.level-english"></p>
-                  </div>
+                  <div class="bar-text"><p data-t="main.languages.level-english"></p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="even display-none" id="english-explanation">
+              <td colspan="2"><p data-t="main.languages.english-explanation"></p></td>
+            </tr>
+
+            <!-- Esperanto -->
+            <tr onclick="showOrHide('esperanto-explanation', 'table-row')" class="context-menu odd">
               <td>
                 <div>
                   <img src="figures/flags/eo.svg" alt="Esperanto" height="20px" class="flag" />
@@ -357,13 +365,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="esperanto-bar"></div>
-                  <div class="bar-text">
-                    <p data-t="main.languages.level-esperanto"></p>
-                  </div>
+                  <div class="bar-text"><p data-t="main.languages.level-esperanto"></p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="odd display-none" id="esperanto-explanation" style="display: none">
+              <td colspan="2"><p data-t="main.languages.esperanto-explanation"></p></td>
+            </tr>
+
+            <!-- German -->
+            <tr onclick="showOrHide('german-explanation', 'table-row')" class="context-menu even">
               <td>
                 <div>
                   <img src="figures/flags/de.svg" data-attr-t alt-t="footer.german" height="20px" class="flag" />
@@ -374,9 +385,23 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="german-bar"></div>
-                  <div class="bar-text">
-                    <p data-t="main.languages.level-german"></p>
-                  </div>
+                  <div class="bar-text"><p data-t="main.languages.level-german"></p></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="even display-none" id="german-explanation">
+              <td colspan="2">
+                <div>
+                  <p data-t="main.languages.german-explanation"></p>
+                  <img
+                    src="figures/flags/ch.svg"
+                    data-attr-t
+                    alt-t="Switzerland"
+                    height="20px"
+                    class="flag"
+                    style="margin-left: 0px"
+                  />
+                  <p style="padding-left: 0px">.</p>
                 </div>
               </td>
             </tr>

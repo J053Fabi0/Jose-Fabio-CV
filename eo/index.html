@@ -268,9 +268,11 @@
 
         <div class="h1-details">
           <p>Fakte mi estas poligloto. Poligloto signifas iu kiu scias 4 aŭ pli lingvojn.</p>
+          <p><i>Alklaku ilin por vidi pli informon.</i></p>
 
           <table>
-            <tr>
+            <!-- Spanish -->
+            <tr onclick="showOrHide('spanish-explanation', 'table-row')" class="context-menu odd">
               <td>
                 <div>
                   <img src="../figures/flags/es.png" height="20px" class="flag" alt="Hispana">
@@ -281,13 +283,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" style="width: 100%" id="spanish-bar"></div>
-                  <div class="bar-text">
-                    <p>Denaska</p>
-                  </div>
+                  <div class="bar-text"><p>Denaska</p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="odd" id="spanish-explanation">
+              <td colspan="2"><p>Mi vere lertas pri ortografio en la hispana, ĉar mi ŝatas verki ĝuste, eĉ kiam mi babilas kun amikoj, eble ĉar mi ŝatas legi, speciale klasikan literaturon.</p></td>
+            </tr>
+
+            <!-- English -->
+            <tr onclick="showOrHide('english-explanation', 'table-row')" class="context-menu even">
               <td>
                 <div>
                   <img src="../figures/flags/en.svg" height="20px" class="flag" alt="Angla">
@@ -298,13 +303,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="english-bar"></div>
-                  <div class="bar-text">
-                    <p>B2 - Meza</p>
-                  </div>
+                  <div class="bar-text"><p>B2 - Meza</p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="even display-none" id="english-explanation">
+              <td colspan="2"><p>Mia patrino estis angla instruisto, do ŝi instruis min ĉion kion ŝi sciis.</p></td>
+            </tr>
+
+            <!-- Esperanto -->
+            <tr onclick="showOrHide('esperanto-explanation', 'table-row')" class="context-menu odd">
               <td>
                 <div>
                   <img src="../figures/flags/eo.svg" alt="Esperanto" height="20px" class="flag">
@@ -315,13 +323,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="esperanto-bar"></div>
-                  <div class="bar-text">
-                    <p>B1 - Malsupra meza</p>
-                  </div>
+                  <div class="bar-text"><p>B1 - Malsupra meza</p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="odd display-none" id="esperanto-explanation" style="display: none">
+              <td colspan="2"><p>Mi komencis studi Esperanton kiam mi aŭdis ke ĝi estas konstruita lingvo kaj ke ĝi eksistis por helpi homoj komuniki unu kun la alia. Ĝi estas tiom facila, ke nur post meza jaro mi povas nomi min B1.</p></td>
+            </tr>
+
+            <!-- German -->
+            <tr onclick="showOrHide('german-explanation', 'table-row')" class="context-menu even">
               <td>
                 <div>
                   <img src="../figures/flags/de.svg" height="20px" class="flag" alt="Germana">
@@ -332,9 +343,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="german-bar"></div>
-                  <div class="bar-text">
-                    <p>A1 - Komencanto</p>
-                  </div>
+                  <div class="bar-text"><p>A1 - Komencanto</p></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="even display-none" id="german-explanation">
+              <td colspan="2">
+                <div>
+                  <p>Mi volas lerni la germanan ĉar unu el miaj longtempaj celoj estas loĝi en Svisio</p>
+                  <img src="../figures/flags/ch.svg" height="20px" class="flag" style="margin-left: 0px" alt="Switzerland">
+                  <p style="padding-left: 0px">.</p>
                 </div>
               </td>
             </tr>

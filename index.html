@@ -268,9 +268,11 @@
 
         <div class="h1-details">
           <p>I'm actually a polyglot, which by definition is someone who knows 4 or more languages.</p>
+          <p><i>Click on them to see more information.</i></p>
 
           <table>
-            <tr>
+            <!-- Spanish -->
+            <tr onclick="showOrHide('spanish-explanation', 'table-row')" class="context-menu odd">
               <td>
                 <div>
                   <img src="figures/flags/es.png" height="20px" class="flag" alt="Spanish">
@@ -281,13 +283,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" style="width: 100%" id="spanish-bar"></div>
-                  <div class="bar-text">
-                    <p>Native</p>
-                  </div>
+                  <div class="bar-text"><p>Native</p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="odd" id="spanish-explanation">
+              <td colspan="2"><p>I'm really good at orthography in Spanish, since I like to write correctly, even whet chatting, and I also reat quite often classic literature.</p></td>
+            </tr>
+
+            <!-- English -->
+            <tr onclick="showOrHide('english-explanation', 'table-row')" class="context-menu even">
               <td>
                 <div>
                   <img src="figures/flags/en.svg" height="20px" class="flag" alt="English">
@@ -298,13 +303,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="english-bar"></div>
-                  <div class="bar-text">
-                    <p>B2 - Intermediate</p>
-                  </div>
+                  <div class="bar-text"><p>B2 - Intermediate</p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="even display-none" id="english-explanation">
+              <td colspan="2"><p>My mother was an english teacher and she taught me a lot when I was really young.</p></td>
+            </tr>
+
+            <!-- Esperanto -->
+            <tr onclick="showOrHide('esperanto-explanation', 'table-row')" class="context-menu odd">
               <td>
                 <div>
                   <img src="figures/flags/eo.svg" alt="Esperanto" height="20px" class="flag">
@@ -315,13 +323,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="esperanto-bar"></div>
-                  <div class="bar-text">
-                    <p>B1 - Lower intermediate</p>
-                  </div>
+                  <div class="bar-text"><p>B1 - Lower intermediate</p></div>
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr class="odd display-none" id="esperanto-explanation" style="display: none">
+              <td colspan="2"><p>I started studying Esperanto when I herd that it was constructed language that aims to be the bridge between people (instead of English). It is so easy to learn, that just after half year I consider myself a B1.</p></td>
+            </tr>
+
+            <!-- German -->
+            <tr onclick="showOrHide('german-explanation', 'table-row')" class="context-menu even">
               <td>
                 <div>
                   <img src="figures/flags/de.svg" height="20px" class="flag" alt="German">
@@ -332,9 +343,16 @@
                 <div class="bar">
                   <div class="background-bar"></div>
                   <div class="fill-bar" id="german-bar"></div>
-                  <div class="bar-text">
-                    <p>A1 - Beginner</p>
-                  </div>
+                  <div class="bar-text"><p>A1 - Beginner</p></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="even display-none" id="german-explanation">
+              <td colspan="2">
+                <div>
+                  <p>I want to learn German because one of my long-term goals is to live in Switzerland</p>
+                  <img src="figures/flags/ch.svg" height="20px" class="flag" style="margin-left: 0px" alt="Switzerland">
+                  <p style="padding-left: 0px">.</p>
                 </div>
               </td>
             </tr>

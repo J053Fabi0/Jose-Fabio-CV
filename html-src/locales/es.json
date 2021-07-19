@@ -42,7 +42,12 @@
       "native": "Nativo",
       "level-english": "B2 - Intermedio",
       "level-esperanto": "B1 - Intermedio principiante",
-      "level-german": "A1 - Principiante"
+      "level-german": "A1 - Principiante",
+      "spanish-explanation": "Soy bastante bueno en ortografía y gramática, ya que me gusta mucho escribir correctamente, incluso en chats con amigos, y desde muy pequeño tengo la costumbre de leer, sobre todo literatura clásica.",
+      "english-explanation": "Mi mamá fue una maestra de inglés, y naturalmente me enseñó todo lo que sabía.",
+      "esperanto-explanation": "Empecé a estudiar Esperanto cuando escuché que es un lenguaje construído y que pretendía servir de puente de comunicación (en vez del inglés). Es tan sencillo de aprender, que luego de tan solo medio año me puedo considerar un B1.",
+      "german-explanation": "Quiero aprender alemán porque una de mis metas a largo plazo es vivir en Suiza",
+      "click-to-see-more": "Haz clic en ellos para ver más información."
     }
   },
   "footer": {
