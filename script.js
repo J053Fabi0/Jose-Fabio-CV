@@ -1,6 +1,7 @@
 (function () {
   const btn = document.getElementById("expAll");
   const details = Array.from(document.querySelectorAll("details"));
+  const explanationsLanguages = Array.from(document.getElementsByClassName("explanation-language"));
 
   // This has to be done because of the translations
   const collapseAllTxt =
@@ -23,6 +24,7 @@
       btn.innerHTML = expanding ? collapseAllTxt : expandAllTxt;
 
       for (let obj of details) obj.open = expanding;
+      for (let obj of explanationsLanguages) obj.style.display = expanding ? "table-row" : "none";
     },
     false
   );
