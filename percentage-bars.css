@@ -35,6 +35,15 @@
   z-index: 1;
 }
 
+.bar-text {
+  width: 100%;
+  overflow: auto;
+}
+
+.bar-text p {
+  white-space: nowrap;
+}
+
 .bar,
 .fill-bar,
 .background-bar {
