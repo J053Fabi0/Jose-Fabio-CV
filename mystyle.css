@@ -215,8 +215,8 @@ tbody > tr:nth-child(even) {
   background-color: rgba(70, 70, 70, 1);
 }
 
-td:first-child {
-  width: 160px;
+td:nth-child(2) {
+  width: 100%;
 }
 
 td:first-child > div {
@@ -235,5 +235,5 @@ td {
 
 table p {
   margin: 0;
-  padding: 0px 0px 2px 10px;
+  padding: 0px 10px 2px 10px;
 }
