@@ -4,15 +4,19 @@
   },
   "main": {
     "vision": "Vizio",
-    "intro": "Saluton! Mi komencis programi kiam mi estis 10 jara, kaj ekde tiam mi decidis neniam ĉesi fari mojosajn programojn. &#128104;&zwj;&#128187;",
+    "intro": "Neniam ĉesi programi. Ĉi tiu estas mia pasio.",
     "expandAll": "Etendiĝi ĉion",
     "experience": {
       "title": "Sperto",
+      "professional-jobs": {
+        "title": "Profesiaj laboroj",
+        "info": "Mi laboris en mia propra lernejo, en la programo <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, kiu dungas studentojn. Mi ellaboris retejon por doni kursojn, per la <ai href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
+      },
       "lana-bot": {
-        "info": "Sekvu la prezojn de viaj plej ŝataj paroj da kriptamoneroj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>Provu ĝin nun!</a>"
+        "info": "Sekvu la prezojn de viaj plej ŝataj paroj da kriptamoneroj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br />"
       },
       "ensi-bot": {
-        "info": "Sekvu la staton kaj monon de viaj nodoj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>Provu ĝin nun!</a>"
+        "info": "Sekvu la staton kaj monon de viaj nodoj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br />"
       },
       "other-projects": {
         "title": "Aliaj projektoj",
@@ -23,13 +27,13 @@
       },
       "volunteer": {
         "title": "Volontulo",
-        "info": "Mi estas volontulo en la teamo de <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> ekde junio de la 2020, pacience helpante centajn homojn kaj kunlaborante kun diversaj aliaj volontuloj."
+        "info": "Mi estis volontulo en la teamo de <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> ekde junio de la 2020 ekde novembro de la 2021, pacience helpante centajn homojn kaj kunlaborante kun diversaj aliaj volontuloj."
       }
     },
     "education": {
       "title": "Edukado",
       "software-engineer": "Programara Inĝeniero",
-      "tecmilenio-info": "Kun stipendio de 60%.",
+      "tecmilenio-info": "Kun stipendio de 60%. Mi foriris ĉar ili havis nenion novan por instrui al mi.",
       "master-info": "Ĉi tiu estas la plej riĉa kurso, kiun mi faris kun <a style='color: var(--color-devf)' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Unujara grado, de interreta projektado ĝis backend.",
       "master-slogan": "La plej granda programista lernejo de Latin-Ameriko.",
       "master-certification": "<a style='color: var(--color-devf)' href='../figures/master.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
@@ -47,7 +51,7 @@
       "spanish-explanation": "Mi vere lertas pri ortografio en la hispana, ĉar mi ŝatas verki ĝuste, eĉ kiam mi babilas kun amikoj, eble ĉar mi ŝatas legi, speciale klasikan literaturon.",
       "english-explanation": "Mia patrino estis angla instruisto, do ŝi instruis min ĉion kion ŝi sciis.",
       "esperanto-explanation": "Mi komencis studi Esperanton kiam mi aŭdis ke ĝi estas konstruita lingvo kaj ke ĝi eksistis por helpi homoj komuniki unu kun la alia. Ĝi estas tiom facila, ke nur post meza jaro mi povas nomi min B1.",
-      "german-explanation": "Mi volas lerni la germanan ĉar unu el miaj longtempaj celoj estas loĝi en Svisio",
+      "german-explanation": "Mi volas lerni la germanan ĉar unu el miaj longtempaj celoj estas loĝi en Svisio &#127464;&#127469;.",
       "click-to-see-more": "Alklaku ilin por vidi pli informon."
     }
   },
@@ -59,5 +63,6 @@
     "es-href": "../es",
     "eo-href": "."
   },
-  "ongoing": "Nuntempe"
+  "ongoing": "Nuntempe",
+  "unfinished": "Nefinita"
 }

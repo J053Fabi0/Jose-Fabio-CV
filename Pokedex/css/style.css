@@ -1,0 +1,18 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.badge-borwn {
+  background-color: brown;
+  color: white;
+}
+
+.badge-pink {
+  background-color: #ff33cc;
+  color: white;
+}
+
+.badge-purple {
+  background-color: purple;
+  color: white;
+}

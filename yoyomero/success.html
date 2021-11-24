@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="description" content="Yoyomero es la tienda online de los mejores yoyos de Chihuahua.">
+  <meta property="fb:app_id" content="116920222137647"/>
+  <meta property="og:title" content="Yoyomero tienda"/>
+  <meta property="og:description" content="Alta tecnología en yoyos"/>
+  <meta property="og:url" content="http://yoyomero.com"/>
+  <meta property="og:image" content="http://yoyomero.com/1200x630.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:type" content="website"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#46a861">
+  <meta name="theme-color" content="#ffffff">
+  <title>Yoyomero - Pago completo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#46a861">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta charset="UTF-8">
+  <title>Success Message</title>
+  
+  <link rel="stylesheet" href="http://yoyomero.com/successFiles/normalize.min.css">
+
+  <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+  
+      <style>
+        
+        * {
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          overflow: hidden;
+        }
+
+        .success-message {
+          text-align: center;
+          max-width: 500px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        .success-message__icon {
+          max-width: 75px;
+        }
+
+        .success-message__title {
+          color: #3DC480;
+          transform: translateY(25px);
+          opacity: 0;
+          transition: all 200ms ease;
+        }
+
+        .active .success-message__title {
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+        a {
+            color: hotpink;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+
+        .success-message__content {
+          color: white;
+          /*B8BABB*/
+          transform: translateY(25px);
+          opacity: 0;
+          transition: all 200ms ease;
+          transition-delay: 50ms;
+        }
+
+        .active .success-message__content {
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+        .icon-checkmark circle {
+          fill: #3DC480;
+          transform-origin: 50% 50%;
+          transform: scale(0);
+          transition: transform 200ms cubic-bezier(0.22, 0.96, 0.38, 0.98);
+        }
+
+        .icon-checkmark path {
+          transition: stroke-dashoffset 350ms ease;
+          transition-delay: 100ms;
+        }
+
+        .active .icon-checkmark circle {
+          transform: scale(1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+  <canvas></canvas>
+  <script src='http://yoyomero.com/successFiles/jquery.min.js'></script>
+
+  <script src="http://yoyomero.com/successFiles/js/js.js"></script>
+
+
+  <div class="success-message">
+    <svg viewBox="0 0 76 76" class="success-message__icon icon-checkmark">
+        <circle cx="38" cy="38" r="36"/>
+        <path fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M17.7,40.9l10.9,10.9l28.7-28.7"/>
+    </svg>
+    <h1 class="success-message__title">Compra realizada</h1>
+    <div class="success-message__content">
+        <p>Su compra ha sido realizada con éxito.</p><p>Si tiene alguna duda puede mandarnos un mensaje a</p> <a href="https://www.facebook.com/yoyomerotienda/" target="_blank"> nuestra pagina de Facebook. </a> <p>Solo entre a Facebook y haga click en la opcion de enviar mensaje.</p> <p>Lo atenderemos con gusto.</p> <p>❦</p> <p>Regresar a </p> <a href="http://yoyomero.com"> yoyomero.com </a>
+    </div>
+</div>
+  
+    <script src="http://yoyomero.com/successFiles/js/index.js"></script>
+
+</body>
+</html>

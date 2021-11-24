@@ -4,15 +4,19 @@
   },
   "main": {
     "vision": "Vision",
-    "intro": "Hello! I started coding at age 10, and since then I made it my life goal to never stop creating awesome software. &#128104;&zwj;&#128187;",
+    "intro": "Never stop coding. Programming is my passion.",
     "expandAll": "Expand all",
     "experience": {
       "title": "Experience",
+      "professional-jobs": {
+        "title": "Professional jobs",
+        "info": "I worked with my own school, participating in the <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a> program, in which they hire students. I developed a platform for online courses using the <a href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
+      },
       "lana-bot": {
-        "info": "Track the price of your favorite pairs of cryptocurrencies from the pDEX <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br /><a href='https://t.me/pDEX_Lana_bot' target='blank'>Try it now!</a>"
+        "info": "Track the price of your favorite pairs of cryptocurrencies from the pDEX <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br />"
       },
       "ensi-bot": {
-        "info": "Track the status and earnings of your nodes from the <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br /><a href='https://t.me/ENSI_Incognito_bot' target='blank'>Try it now!</a>"
+        "info": "Track the status and earnings of your nodes from the <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br />"
       },
       "other-projects": {
         "title": "Other projects",
@@ -23,13 +27,13 @@
       },
       "volunteer": {
         "title": "Volunteer",
-        "info": "I’m volunteering at <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> since June of 2020, patiently helping hundreds of users and collaborating with many other volunteers."
+        "info": "I was volunteering at <a href='https://tsf.telegram.org/' target='blank'>Telegram Support Force</a> from June of 2020 to November of 2021, patiently helping hundreds of users and collaborating with many other volunteers."
       }
     },
     "education": {
       "title": "Education",
       "software-engineer": "Software Engineer",
-      "tecmilenio-info": "With a 60% scholarship, which I got by winning a contest in 2nd place.",
+      "tecmilenio-info": "With a 60% scholarship, which I got by winning a contest in 2nd place. I left because I already knew what they were teaching me.",
       "master-info": "This is the most enriching course I've taken with <a style='color: var(--color-devf)' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. One year degree, from web design to backend.",
       "master-slogan": "The Biggest hackers school of Latin America.",
       "master-certification": "<a style='color: var(--color-devf)' href='figures/master.pdf' target='blank'>Here is my certification</a>.",
@@ -47,7 +51,7 @@
       "spanish-explanation": "I'm really good at orthography in Spanish, since I like to write correctly, even whet chatting, and I also reat quite often classic literature.",
       "english-explanation": "My mother was an english teacher and she taught me a lot when I was really young.",
       "esperanto-explanation": "I started studying Esperanto when I herd that it was constructed language that aims to be the bridge between people (instead of English). It is so easy to learn, that just after half year I consider myself a B1.",
-      "german-explanation": "I want to learn German because one of my long-term goals is to live in Switzerland",
+      "german-explanation": "I want to learn German because one of my long-term goals is to live in Switzerland &#127464;&#127469;.",
       "click-to-see-more": "Click on them to see more information."
     }
   },
@@ -59,5 +63,6 @@
     "es-href": "es",
     "eo-href": "eo"
   },
-  "ongoing": "Ongoing"
+  "ongoing": "Ongoing",
+  "unfinished": "Unfinished"
 }
