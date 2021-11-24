@@ -1,6 +1,0 @@
-# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
-
-order deny,allow
-deny from all
-allow from 189.155.86.155
-allow from 189.155.93.150
