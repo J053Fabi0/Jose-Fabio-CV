@@ -245,3 +245,9 @@ td > p {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
+#codewars-badge {
+  margin-left: 0px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
