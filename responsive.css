@@ -83,3 +83,23 @@
     margin-bottom: 0px;
   }
 }
+
+@media screen and (max-width: 497px) {
+  #codewars-badge-large {
+    display: none;
+  }
+
+  #codewars-badge-small {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  #codewars-badge-small {
+    display: none;
+  }
+
+  #codewars-badge-micro {
+    display: block;
+  }
+}

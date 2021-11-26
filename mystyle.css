@@ -246,8 +246,15 @@ td > p {
   margin-top: 10px;
 }
 
-#codewars-badge {
+#codewars-badge-large,
+#codewars-badge-small,
+#codewars-badge-micro {
   margin-left: 0px;
   margin-top: -10px;
   margin-bottom: 10px;
+}
+
+#codewars-badge-small,
+#codewars-badge-micro {
+  display: none;
 }
