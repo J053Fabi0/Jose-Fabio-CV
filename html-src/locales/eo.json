@@ -24,6 +24,10 @@
           "title": "Ni reduktu nian karbonan spuron",
           "info": "Elektu la aferojn, kiujn vi povas aŭ volas fari, kaj vi vidos, kiel malpliiĝas via karbona spuro.<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>Vidu ĝin vi mem!</a>"
         },
+        "memos": {
+          "title": "Incognito memos",
+          "info": "Paĝo por vidi ĉiujn <i>memos</i> (mesaĝojn) de ĉiuj transakcioj faritaj sur la <a href='https://incognito.org' target='blank'><i>Incognito</i></a> blokĉeno.<br /><br /><a href='https://memos.josefabio.com?size=15&page=3' target='blank'>Vidu ĝin vi mem!</a>"
+        },
         "acceptcrypto": {
           "title": "Ni akceptas kriptamonerojn",
           "info": "Mi kreis ĉi tiun retpaĝon por ke nia familia negocio akceptu kirptamonerojn.<br /><br /><a href='https://btc.josefabio.com' target='blank'>Vidu ĝin vi mem!</a>"
