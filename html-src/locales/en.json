@@ -23,6 +23,10 @@
         "carbon": {
           "title": "Lets reduce our carbon footprint",
           "info": "See scientifically proven ways to reduce it and choose the ones you can achieve!<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>See it in action!</a>"
+        },
+        "acceptcrypto": {
+          "title": "We accept cryptocurrencies",
+          "info": "I made this webpage in order to start accepting crypto in the local business of my family.<br /><br /><a href='https://btc.josefabio.com' target='blank'>See it in action!</a>"
         }
       },
       "volunteer": {

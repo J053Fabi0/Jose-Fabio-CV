@@ -22,7 +22,11 @@
         "title": "Otros proyectos",
         "carbon": {
           "title": "Reduzcamos nuestra huella de carbono",
-          "info": "Selecciona las cosas que puedes o quieres hacer, ¡y verás cómo tu barra de huella de carbono disminuye!<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>¡Velo tú mismo!</a>"
+          "info": "Selecciona las cosas que puedes o quieres hacer, ¡y verás cómo tu barra de huella de carbono disminuye!<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>¡Velo por ti mismo!</a>"
+        },
+        "acceptcrypto": {
+          "title": "Se aceptan criptomonedas",
+          "info": "Creé esta página para poder aceptar criptomonedas en el negocio familiar.<br /><br /><a href='https://btc.josefabio.com' target='blank'>¡Vela por ti mismo!</a>"
         }
       },
       "volunteer": {
