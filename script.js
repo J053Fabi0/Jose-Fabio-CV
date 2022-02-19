@@ -1,5 +1,3 @@
-"use-strict";
-
 (function () {
   const btn = document.getElementById("expAll");
   const details = Array.from(document.querySelectorAll("details"));
@@ -50,3 +48,8 @@
   const objs = document.getElementsByClassName("display-none");
   for (const obj of objs) obj.style.display = "none";
 })();
+
+function showOrHide(id, default_display) {
+  const element = document.getElementById(id);
+  element.style.display = element.style.display !== "none" ? "none" : default_display;
+}
