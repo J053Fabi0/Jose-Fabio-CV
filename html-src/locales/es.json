@@ -44,7 +44,7 @@
       "w3-js-title": "Javascript certificado",
       "w3-js-slogan": "Por W3Schools.",
       "w3-js-info": "Fui sobresaliente, con 68 de 70 correctas en el examen final.",
-      "w3-js-certification": "<a style='color: var(--color-tecmilenio)' href='figures/Certified Javascript developer Jose Fabio.pdf' target='blank'>Aquí está mi certificado</a>.",
+      "w3-js-certification": "<a style='color: var(--color-tecmilenio)' href='../figures/Certified Javascript developer Jose Fabio.pdf' target='blank'>Aquí está mi certificado</a>.",
 
       "codewars-info": "Una plataforma con muchísimos retos de programación.",
 
