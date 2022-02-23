@@ -13,6 +13,10 @@
 }
 
 @media screen and (max-width: 575px) {
+  .screenshot {
+    width: 80%;
+  }
+
   #profile_pic_div {
     width: 100%;
     display: flex;

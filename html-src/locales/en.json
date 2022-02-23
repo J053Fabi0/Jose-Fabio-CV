@@ -40,13 +40,23 @@
     },
     "education": {
       "title": "Education",
-      "software-engineer": "Software Engineer",
+
+      "w3-js-title": "Javascript certification",
+      "w3-js-slogan": "By W3Schools.",
+      "w3-js-info": "I was outstanding, with 68 correct out of 70 in the final exam.",
+      "w3-js-certification": "<a style='color: var(--color-tecmilenio)' href='figures/Certified Javascript developer Jose Fabio.pdf' target='blank'>Here is my certification</a>.",
+
       "codewars-info": "A platform full of coding challenges to do.",
+
+      "software-engineer": "Software Engineer",
       "tecmilenio-info": "With a 60% scholarship, which I got by winning a contest in 2nd place. I left because I already knew what they were teaching me.",
+
       "master-info": "This is the most enriching course I've taken with <a style='color: var(--color-devf)' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. One year degree, from web design to backend.",
       "master-slogan": "The Biggest hackers school of Latin America.",
       "master-certification": "<a style='color: var(--color-devf)' href='figures/master.pdf' target='blank'>Here is my certification</a>.",
+
       "cinta-negra-info": "Here I learned to develop applications with Java for Android devices.",
+
       "cinta-roja-info": "The intermediate level course they offered. I was the youngest person to get the certification: I was 15."
     },
     "languages": {

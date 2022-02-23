@@ -40,13 +40,23 @@
     },
     "education": {
       "title": "Edukado",
-      "software-engineer": "Programara Inĝeniero",
+
+      "w3-js-title": "Javascript-a atestilo",
+      "w3-js-slogan": "De W3Schools.",
+      "w3-js-info": "Mi elstaris, kun 68 ĝustaj el 70 je la fina ekzameno.",
+      "w3-js-certification": "<a style='color: var(--color-tecmilenio)' href='figures/Certified Javascript developer Jose Fabio.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
+
       "codewars-info": "Retejo kun multaj programaj defioj.",
+
+      "software-engineer": "Programara Inĝeniero",
       "tecmilenio-info": "Kun stipendio de 60%. Mi foriris ĉar ili havis nenion novan por instrui al mi.",
+
       "master-info": "Ĉi tiu estas la plej riĉa kurso, kiun mi faris kun <a style='color: var(--color-devf)' href='https://devf.la/master/encoding/mx' target='blank'>Dev.f</a>. Unujara grado, de interreta projektado ĝis backend.",
       "master-slogan": "La plej granda programista lernejo de Latin-Ameriko.",
       "master-certification": "<a style='color: var(--color-devf)' href='../figures/master.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
+
       "cinta-negra-info": "Ĉi tie mi lernis fari Android aplikaĵojn per Java.",
+
       "cinta-roja-info": "Ĉi tiu estis la meza kurso kiun ili havis. Mi estis la plej juna studento: mi aĝis 15."
     },
     "languages": {
