@@ -41,8 +41,13 @@
     "education": {
       "title": "Edukado",
 
+      "w3-slogan": "De W3Schools.",
+
+      "w3-react-title": "React-a atestilo",
+      "w3-react-info": "Mi elstaris, kun 64 ĝustaj el 70 je la fina ekzameno.",
+      "w3-react-certification": "<a style='color: var(--color-tecmilenio)' href='../figures/Certified React developer Jose Fabio.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
+
       "w3-js-title": "Javascript-a atestilo",
-      "w3-js-slogan": "De W3Schools.",
       "w3-js-info": "Mi elstaris, kun 68 ĝustaj el 70 je la fina ekzameno.",
       "w3-js-certification": "<a style='color: var(--color-tecmilenio)' href='../figures/Certified Javascript developer Jose Fabio.pdf' target='blank'>Ĉi tie estas mia diplomo</a>.",
 

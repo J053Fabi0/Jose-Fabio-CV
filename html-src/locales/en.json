@@ -41,8 +41,13 @@
     "education": {
       "title": "Education",
 
+      "w3-slogan": "By W3Schools.",
+
+      "w3-react-title": "React certification",
+      "w3-react-info": "I was outstanding, with 64 correct out of 70 in the final exam.",
+      "w3-react-certification": "<a style='color: var(--color-tecmilenio)' href='figures/Certified React developer Jose Fabio.pdf' target='blank'>Here is my certification</a>.",
+
       "w3-js-title": "Javascript certification",
-      "w3-js-slogan": "By W3Schools.",
       "w3-js-info": "I was outstanding, with 68 correct out of 70 in the final exam.",
       "w3-js-certification": "<a style='color: var(--color-tecmilenio)' href='figures/Certified Javascript developer Jose Fabio.pdf' target='blank'>Here is my certification</a>.",
 
