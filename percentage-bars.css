@@ -53,6 +53,7 @@
 }
 
 /* Para actualizar las barras, entra a https://www.colorzilla.com/gradient-editor/ y piensa en un porcentaje.
+   La formula es (100/6) * nivel.
  * Luego le restas 5 y le sumas 5, y cada uno de esos valores serán las pocisiones de los puntos de opacidad en la barra */
 
 #spanish-bar {
@@ -60,73 +61,22 @@
 }
 
 #english-bar {
-  background: -moz-linear-gradient(
-    left,
-    rgba(13, 168, 60, 1) 55%,
-    rgba(13, 168, 60, 1) 61%,
-    rgba(13, 168, 60, 0) 71%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(13, 168, 60, 1) 55%,
-    rgba(13, 168, 60, 1) 61%,
-    rgba(13, 168, 60, 0) 71%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(13, 168, 60, 1) 55%,
-    rgba(13, 168, 60, 1) 61%,
-    rgba(13, 168, 60, 0) 71%,
-    rgba(13, 168, 60, 0) 78%
-  );
+  background: -moz-linear-gradient(left, rgba(13, 168, 60, 1) 78%, rgba(13, 168, 60, 0) 88%);
+  background: -webkit-linear-gradient(left, rgba(13, 168, 60, 1) 78%, rgba(13, 168, 60, 0) 88%);
+  background: linear-gradient(to right, rgba(13, 168, 60, 1) 78%, rgba(13, 168, 60, 0) 88%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0da83c', endColorstr='#000da83c',GradientType=1 );
 }
 
 #esperanto-bar {
-  background: -moz-linear-gradient(
-    left,
-    rgba(13, 168, 60, 1) 45%,
-    rgba(13, 168, 60, 0) 55%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(13, 168, 60, 1) 45%,
-    rgba(13, 168, 60, 0) 55%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(13, 168, 60, 1) 45%,
-    rgba(13, 168, 60, 0) 55%,
-    rgba(13, 168, 60, 0) 78%
-  );
+  background: -moz-linear-gradient(left, rgba(13, 168, 60, 1) 45%, rgba(13, 168, 60, 0) 55%);
+  background: -webkit-linear-gradient(left, rgba(13, 168, 60, 1) 45%, rgba(13, 168, 60, 0) 55%);
+  background: linear-gradient(to right, rgba(13, 168, 60, 1) 45%, rgba(13, 168, 60, 0) 55%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0da83c', endColorstr='#000da83c',GradientType=1 );
 }
 
 #german-bar {
-  background: -moz-linear-gradient(
-    left,
-    rgba(13, 168, 60, 1) 11%,
-    rgba(13, 168, 60, 0) 21%,
-    rgba(13, 168, 60, 0) 55%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(13, 168, 60, 1) 11%,
-    rgba(13, 168, 60, 0) 21%,
-    rgba(13, 168, 60, 0) 55%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  background: linear-gradient(
-    to right,
-    rgba(13, 168, 60, 1) 11%,
-    rgba(13, 168, 60, 0) 21%,
-    rgba(13, 168, 60, 0) 55%,
-    rgba(13, 168, 60, 0) 78%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0da83c', endColorstr='#000da83c',GradientType=1 );
+  background: -moz-linear-gradient(left, rgba(13, 168, 60, 1) 27%, rgba(13, 168, 60, 0) 37%);
+  background: -webkit-linear-gradient(left, rgba(13, 168, 60, 1) 27%, rgba(13, 168, 60, 0) 37%);
+  background: linear-gradient(to right, rgba(13, 168, 60, 1) 27%, rgba(13, 168, 60, 0) 37%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0da83c', endColorstr='#000da83c', GradientType=1 );
 }
