@@ -14,11 +14,11 @@
           "info": "Trabajé con mi propia escuela en el programa de <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, en el cual contratan estudiantes. Desarrollé una plataforma online de cursos usando el <a href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
         },
         "tiendita": {
-          "info": "Un sito web para manejar las ventas y stock de los productos de la tienda de mi familia.<br/>Desarrollé tanto el back como el frontend, usando principalmente Express, React y Bootstrap.<br/><br/><a href='https://tiendita-demo.josefabio.com' target='blank'>¡Dale un vistazo!</a> El usuario y contraseña son ambos <code>demouser</code>."
+          "info": "Un sito web para manejar las ventas y stock de cualquier tienda.<br/>Desarrollé tanto el back como el frontend, usando principalmente Express, React y Bootstrap.<br/><br/><a href='https://tiendita-demo.josefabio.com' target='blank'>¡Dale un vistazo!</a> El usuario y contraseña son ambos <code>demouser</code>."
         },
         "memos": {
           "title": "Incognito memos",
-          "info": "Una página para ver todos los memos (mensajes) de todas las transacciones hechas en la blockchain de <a href='https://incognito.org' target='blank'>Incognito</a>.<br/><br/><a href='https://memos.josefabio.com?size=15&page=3' target='blank'>¡Dale un vistazo!</a>"
+          "info": "Una página para ver todos los memos (mensajes) de todas las transacciones hechas en la blockchain de <a href='https://incognito.org' target='blank'>Incognito</a>.<br/>Desarrollé tanto el back como el frontend, usando principalmente Express, React y Bootstrap.<br/><br/><a href='https://memos.josefabio.com?size=15&page=3' target='blank'>¡Dale un vistazo!</a>"
         }
       },
       "lana-bot": {
