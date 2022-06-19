@@ -10,7 +10,16 @@
       "title": "Experiencia",
       "professional-jobs": {
         "title": "Trabajos profesionales",
-        "info": "Trabajé con mi propia escuela en el programa de <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, en el cual contratan estudiantes. Desarrollé una plataforma online de cursos usando el <a href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
+        "oncampus": {
+          "info": "Trabajé con mi propia escuela en el programa de <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, en el cual contratan estudiantes. Desarrollé una plataforma online de cursos usando el <a href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
+        },
+        "tiendita": {
+          "info": "Un sito web para manejar las ventas y stock de los productos de la tienda de mi familia.<br/>Desarrollé tanto el back como el frontend, usando principalmente Express, React y Bootstrap.<br/><br/><a href='https://tiendita-demo.josefabio.com' target='blank'>¡Dale un vistazo!</a> El usuario y contraseña son ambos <code>demouser</code>."
+        },
+        "memos": {
+          "title": "Incognito memos",
+          "info": "Una página para ver todos los memos (mensajes) de todas las transacciones hechas en la blockchain de <a href='https://incognito.org' target='blank'>Incognito</a>.<br/><br/><a href='https://memos.josefabio.com?size=15&page=3' target='blank'>¡Dale un vistazo!</a>"
+        }
       },
       "lana-bot": {
         "info": "Sigue el precio de tus pares de criptomonedas favoritas del pDEX de la blockchain de <a href='https://incognito.org' target='blank'>Incógnito</a>.<br /><br />"
@@ -22,15 +31,11 @@
         "title": "Otros proyectos",
         "carbon": {
           "title": "Reduzcamos nuestra huella de carbono",
-          "info": "Selecciona las cosas que puedes o quieres hacer, ¡y verás cómo tu barra de huella de carbono disminuye!<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>¡Velo por ti mismo!</a>"
-        },
-        "memos": {
-          "title": "Incognito memos",
-          "info": "Una página para ver todos los memos (mensajes) de todas las transacciones hechas en la blockchain de <a href='https://incognito.org' target='blank'>Incognito</a>.<br /><br /><a href='https://memos.josefabio.com?size=15&page=3' target='blank'>¡Vela por ti mismo!</a>"
+          "info": "Selecciona las cosas que puedes o quieres hacer, ¡y verás cómo tu barra de huella de carbono disminuye!<br /><br /><a href='https://huella-de-carbono.github.io/' target='blank'>¡Dale un vistazo!</a>"
         },
         "acceptcrypto": {
           "title": "Se aceptan criptomonedas",
-          "info": "Creé esta página para poder aceptar criptomonedas en el negocio familiar.<br /><br /><a href='https://btc.josefabio.com' target='blank'>¡Vela por ti mismo!</a>"
+          "info": "Creé esta página para poder aceptar criptomonedas en el negocio familiar.<br /><br /><a href='https://btc.josefabio.com' target='blank'>¡Dale un vistazo!</a>"
         }
       },
       "volunteer": {

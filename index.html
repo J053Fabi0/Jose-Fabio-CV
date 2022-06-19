@@ -57,7 +57,9 @@
     <div id="languages">
       <a href="."><li><img src="figures/flags/en.svg" height="30px" alt="English"></li></a>
       <a href="es"><li><img src="figures/flags/es.png" height="30px" alt="Spanish"></li></a>
-      <a href="eo"><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30px"></li></a>
+      <!-- <a data-attr-t href-t="footer.eo-href" href="eo"
+        ><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30px" /></li
+      ></a> -->
     </div>
 
     <h1>Jose Fabio</h1>
@@ -66,7 +68,9 @@
     <footer id="languages-responsive">
       <a href="."><li><img src="figures/flags/en.svg" height="30px" alt="English"></li></a>
       <a href="es"><li><img src="figures/flags/es.png" height="30px" alt="Spanish"></li></a>
-      <a href="eo"><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30px"></li></a>
+      <!-- <a data-attr-t href-t="footer.eo-href" href="eo"
+        ><li><img src="figures/flags/eo.svg" alt="Esperanto" height="30px" /></li
+      ></a> -->
     </footer>
 
     <!-- Main -->
@@ -88,9 +92,40 @@
       <h2 style="margin-bottom: 5px; margin-top: 20px">Experience</h2>
 
       <div class="h1-details">
-        <!-- On-Campus Jobs -->
         <span class="h2-span"><strong>Professional jobs</strong></span>
         <div class="h2-details">
+            <!-- Tiendita -->
+          <details>
+            <summary>
+              <span class="h3-span pointer">
+                <strong>Tiendita</strong>&nbsp;&nbsp; <i class="date">2022</i>
+              </span>
+            </summary>
+
+            <div class="h3-details">
+              <img align="left" width="50px" src="figures/react.png" loading="lazy" style="margin-right: 10px">
+              <p>A website to manage the sales and products' stock of my family's store.<br>I developed the back and the frontend, using mainly Express, React and Bootstrap.<br><br><a href="https://tiendita-demo.josefabio.com" target="blank">Try it out!</a> Username and password are both <code>demouser</code>. Feel free to interact with it.</p>
+              <div class="separator"></div>
+            </div>
+          </details>
+
+          <!-- Incognito memos -->
+          <details>
+            <summary>
+              <span class="h3-span pointer">
+                <strong>Incognito memos</strong>&nbsp;&nbsp;
+                <i class="date">2022</i>
+              </span>
+            </summary>
+
+            <div class="h3-details">
+              <img align="left" width="50px" src="figures/react.png" loading="lazy" style="margin-right: 10px">
+              <p>A webpage to see all the memos (messages) ever written within every <a href="https://incognito.org" target="blank">Incognito</a> blockchain transaction.<br>I developed the back and the frontend, using mainly Express, React and Bootstrap.<br><br><a href="https://memos.josefabio.com?size=15&page=3" target="blank">See it in action!</a></p>
+              <div class="separator"></div>
+            </div>
+          </details>
+
+            <!-- On-Campus Jobs -->
           <details>
             <summary>
               <span class="h3-span pointer">
@@ -100,9 +135,7 @@
 
             <div class="h3-details">
               <img align="left" width="50px" src="figures/TecMonterrey.png" loading="lazy" style="margin-right: 10px">
-
               <p>I worked with my own school, participating in the <a href="https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx" target="blank">On-Campus Jobs</a> program, in which they hire students. I developed a platform for online courses using the <a href="https://www.mongodb.com/mern-stack" target="blank">MERN stack</a>.</p>
-
               <div class="separator"></div>
             </div>
           </details>
@@ -152,21 +185,6 @@
         <!-- Other projects -->
         <span class="h2-span"><strong>Other projects</strong></span>
         <div class="h2-details">
-          <!-- Incognito memos -->
-          <details>
-            <summary>
-              <span class="h3-span pointer">
-                <strong>Incognito memos</strong>&nbsp;&nbsp;
-                <i class="date">2022</i>
-              </span>
-            </summary>
-
-            <div class="h3-details">
-              <p>A webpage to see all the memos (messages) ever written within every <a href="https://incognito.org" target="blank">Incognito</a> blockchain transaction.<br><br><a href="https://memos.josefabio.com?size=15&page=3" target="blank">See it in action!</a></p>
-              <div class="separator"></div>
-            </div>
-          </details>
-
           <!-- Se aceptan criptomonedas -->
           <details>
             <summary>
@@ -327,7 +345,7 @@
 
             <div style="margin-left: 32px">
               <img align="left" height="40px" loading="lazy" src="figures/master.png" style="padding-right: 10px">
-              <p style="margin-top: 10px"><i>The Biggest hackers school of Latin America.</i></p>
+              <p style="margin-top: 10px"><i>The Biggest hackers' school of Latin America.</i></p>
               <p>This is the most enriching course I've taken with <a style="color: var(--color-devf)" href="https://devf.la/master/encoding/mx" target="blank">Dev.f</a>. One year degree, from web design to backend.</p>
               <p><a style="color: var(--color-devf)" href="figures/master.pdf" target="blank">Here is my certification</a>.</p>
             </div>

@@ -258,3 +258,10 @@ td > p {
 #codewars-badge-micro {
   display: none;
 }
+
+code {
+  word-wrap: break-word;
+  color: #ef3a95;
+  font-size: 0.8em;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

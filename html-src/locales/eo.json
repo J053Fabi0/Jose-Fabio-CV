@@ -10,7 +10,9 @@
       "title": "Sperto",
       "professional-jobs": {
         "title": "Profesiaj laboroj",
-        "info": "Mi laboris en mia propra lernejo, en la programo <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, kiu dungas studentojn. Mi ellaboris retejon por doni kursojn, per la <ai href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
+        "oncampus": {
+          "info": "Mi laboris en mia propra lernejo, en la programo <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, kiu dungas studentojn. Mi ellaboris retejon por doni kursojn, per la <ai href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
+        }
       },
       "lana-bot": {
         "info": "Sekvu la prezojn de viaj plej ŝataj paroj da kriptamoneroj el <a href='https://incognito.org' target='blank'>Incognito</a> blokĉeno.<br /><br />"
