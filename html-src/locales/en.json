@@ -14,7 +14,7 @@
           "info": "I worked with my own school, participating in the <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a> program, in which they hire students. I developed a platform for online courses using the <a href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
         },
         "tiendita": {
-          "info": "A website to manage retails' sales and products' stock of any business store.<br/>I developed the back and the frontend, using mainly Express, React and Bootstrap.<br/><br/><a href='https://tiendita-demo.josefabio.com' target='blank'>Try it out!</a> Username and password are both <code>demouser</code>. Feel free to interact with it."
+          "info": "A website to manage retail sales and products' stocks of any business store.<br/>I developed the back and the frontend, using mainly Express, React and Bootstrap.<br/><br/><a href='https://tiendita-demo.josefabio.com' target='blank'>Try it out!</a> Username and password are both <code>demouser</code>. Feel free to interact with it."
         },
         "memos": {
           "title": "Incognito memos",
