@@ -13,6 +13,9 @@
         "oncampus": {
           "info": "Trabajé con mi propia escuela en el programa de <a href='https://utmedu.sharepoint.com/sites/miportal/OnCampusJob/index.aspx' target='blank'>On-Campus Jobs</a>, en el cual contratan estudiantes. Desarrollé una plataforma online de cursos usando el <a href='https://www.mongodb.com/mern-stack' target='blank'>MERN stack</a>."
         },
+        "intelimotor": {
+          "info": "Trabajo medio tiempo como desarrollador fullstack, usando principalmente MaterialUI, React, Express y GraphQL.<br/><br/><a href='https://intelimotor.com' target='blank'>Sitio web de Intelimotor</a>."
+        },
         "tiendita": {
           "info": "Un sito web para manejar las ventas y stock de cualquier tienda.<br/>Desarrollé tanto el back como el frontend, usando principalmente Express, React y Bootstrap.<br/><br/><a href='https://tiendita-demo.josefabio.com' target='blank'>¡Dale un vistazo!</a> El usuario y contraseña son ambos <code>demouser</code>."
         },
