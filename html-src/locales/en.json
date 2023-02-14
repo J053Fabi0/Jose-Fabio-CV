@@ -24,6 +24,10 @@
           "info": "A webpage to see all the memos (messages) ever written within every <a href='https://incognito.org' target='blank'>Incognito</a> blockchain transaction.<br/>I developed the back and the frontend, using mainly Express, React and Bootstrap.<br/><br/><a href='https://memos.josefabio.com?size=15&page=3' target='blank'>See it in action!</a>"
         }
       },
+      "ayn-rand-bot": {
+        "title": "Ayn Rand's quotes bot",
+        "info": "I'm an objectivist and I totally admire Ayn Rand. This bot subscribes people and groups to quotes I personally take from her books. <a href='https://t.me/FrasesDeAynRandBot' target='blank'>Try it out!</a> or <a href='https://t.me/ObjetivismoYFilosofia' target='blank'>join my group</a>.<br />"
+      },
       "lana-bot": {
         "info": "Track the price of your favorite pairs of cryptocurrencies from the pDEX <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br />"
       },
