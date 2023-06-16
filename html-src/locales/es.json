@@ -26,7 +26,7 @@
       },
       "ayn-rand-bot": {
         "title": "Ayn Rand - Frases (también sitio web)",
-        "info": "Soy objetivista y admiro totalmente a Ayn Rand. Este bot suscribe usuarios y grupos a frases que yo mismo recolecto de sus libros. <a href='https://t.me/FrasesDeAynRandBot' target='blank'>Suscríbete hoy</a> o <a href='https://t.me/ObjetivismoYFilosofia' target='blank'>únete a mi grupo</a>.<br /><br /><a href='https://aynrand.josefabio.com' target='blank'>Aquí está el sitio web</a>, hecho con <a href='https://deno.land' target='blank'>Deno 🦕</a> y <a href='https://fresh.deno.dev' target='blank'>Fresh 🍋</a>, el nuevo runtime para JavaScript y su framework para server-side-rendering.<br />"
+        "info": "Soy objetivista y admiro totalmente a Ayn Rand. Este bot suscribe usuarios y grupos a frases que yo mismo recolecto de sus libros. <a href='https://t.me/FrasesDeAynRandBot' target='blank'>Suscríbete hoy</a> o <a href='https://t.me/ObjetivismoYFilosofia' target='blank'>únete a mi grupo</a>.<br /><br /><a href='https://aynrand.josefabio.com' target='blank'>Aquí está el sitio web</a>, hecho con <a href='https://deno.land' target='blank'>Deno 🦕</a> y <a href='https://fresh.deno.dev' target='blank'>Fresh 🍋</a>: el nuevo runtime para JavaScript y su framework para server-side-rendering.<br />"
       },
       "lana-bot": {
         "info": "Sigue el precio de tus pares de criptomonedas favoritas del pDEX de la blockchain de <a href='https://incognito.org' target='blank'>Incógnito</a>.<br /><br />"

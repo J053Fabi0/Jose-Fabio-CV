@@ -26,7 +26,7 @@
       },
       "ayn-rand-bot": {
         "title": "Ayn Rand's quotes bot and website",
-        "info": "I'm an objectivist and I totally admire Ayn Rand.<br />This bot subscribes people and groups to quotes I personally take from her books. <a href='https://t.me/FrasesDeAynRandBot' target='blank'>Subscribe today</a> or <a href='https://t.me/ObjetivismoYFilosofia' target='blank'>join my group</a> (we speak Spanish).<br /><br /><a href='https://aynrand.josefabio.com' target='blank'>Here's the website</a>, made with <a href='https://deno.land' target='blank'>Deno 🦕</a> and <a href='https://fresh.deno.dev' target='blank'>Fresh 🍋</a>, the new JavaScript runtime and it's server-side-rendering framework.<br />"
+        "info": "I'm an objectivist and I totally admire Ayn Rand.<br />This bot subscribes people and groups to quotes I personally take from her books. <a href='https://t.me/FrasesDeAynRandBot' target='blank'>Subscribe today</a> or <a href='https://t.me/ObjetivismoYFilosofia' target='blank'>join my group</a> (we speak Spanish).<br /><br /><a href='https://aynrand.josefabio.com' target='blank'>Here's the website</a>, made with <a href='https://deno.land' target='blank'>Deno 🦕</a> and <a href='https://fresh.deno.dev' target='blank'>Fresh 🍋</a>: the new JavaScript runtime and it's server-side-rendering framework.<br />"
       },
       "lana-bot": {
         "info": "Track the price of your favorite pairs of cryptocurrencies from the pDEX <a href='https://incognito.org' target='blank'>Incognito</a> blockchain.<br /><br />"
