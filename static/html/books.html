@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Jose Fabio</title>
+  </head>
+  <body>
+    <header class="border border-black rounded border-solid flex justify-between p-3 my-2 mx-1 bg-red-300">
+      <a href="./index.html">
+        <h1>Jose Fabio</h1>
+      </a>
+      <div class="flex gap-5">
+        <a href="./contact.html">Contact</a>
+        <a href="./education.html">Education</a>
+        <a href="./books.html" class="font-bold">Books read</a>
+      </div>
+    </header>
+
+    <section
+      id="books"
+      class="border border-black rounded border-solid p-3 my-2 mx-1 flex gap-3 flex-col bg-blue-300"
+    >
+      <h2>Books read</h2>
+      <table class="table-auto border-collapse">
+        <thead>
+          <tr>
+            <th class="border border-slate-600">Calificación</th>
+            <th class="border border-slate-600">Título</th>
+            <th class="border border-slate-600">Autor</th>
+            <th class="border border-slate-600">Categorías</th>
+            <th class="border border-slate-600">Fecha</th>
+            <th class="border border-slate-600">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-slate-600">5</td>
+            <td class="border border-slate-600">La rebelión de Atlas</td>
+            <td class="border border-slate-600">Ayn Rand</td>
+            <td class="border border-slate-600">Ficción, Novela, Filosofía</td>
+            <td class="border border-slate-600">Enero 1 del 2022</td>
+            <td class="border border-slate-600">1</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-600">5</td>
+            <td class="border border-slate-600">El Manantial</td>
+            <td class="border border-slate-600">Ayn Rand</td>
+            <td class="border border-slate-600">Ficción, Novela, Filosofía</td>
+            <td class="border border-slate-600">Mayo 13 del 2022</td>
+            <td class="border border-slate-600">1</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer class="border border-black rounded border-solid p-3 my-2 mx-1 bg-teal-300">
+      <h2>Contact</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </footer>
+  </body>
+</html>
