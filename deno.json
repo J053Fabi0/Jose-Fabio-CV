@@ -29,7 +29,7 @@
     "react-icons/io": "https://cdn.jsdelivr.net/gh/urielch/react-icons-io@1.0.9/mod.ts",
     "react-icons/md": "https://cdn.jsdelivr.net/gh/urielch/react-icons-md@1.0.9/mod.ts",
     "react-icons/tb": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.9/mod.ts",
-    "std/": "https://deno.land/std@0.193.0/",
+    "std/": "https://deno.land/std@0.204.0/",
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/"
   },
