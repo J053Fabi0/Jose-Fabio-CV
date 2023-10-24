@@ -33,7 +33,7 @@ export default function Home() {
         <img src="https://via.placeholder.com/150" alt="Me" class="hover:animate-ping rounded" />
       </section>
 
-      <section id="experience" class="rounded p-3 mt-5 grid gap-3 grid-cols-1">
+      <section id="experience" class="p-3 mt-5 grid gap-3 grid-cols-1">
         <Typography variant="h2">Experience</Typography>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {experience.map((exp) => (
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="skills" class="rounded p-3 mt-5 grid gap-3 grid-cols-1">
+      <section id="skills" class="p-3 mt-5 grid gap-3 grid-cols-1">
         <Typography variant="h2">Skills</Typography>
         <div class="flex gap-3 flex-wrap">
           {skills.map((skill) => (
