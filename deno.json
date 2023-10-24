@@ -8,21 +8,30 @@
     "update": "deno run -A -r https://fresh.deno.dev/update .",
     "run": "deno task build && deno run --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts",
 
-    "dev": "deno task build && deno run --watch=static/,routes/  --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts -i",
+    "dev": "deno task build && deno run --watch=static/,routes/  --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts",
     "check": "deno check main.ts dev.ts",
     "build": "BUILDING=yes deno run -A dev.ts build"
   },
   "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "imports": {
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
     "$fresh/": "https://deno.land/x/fresh@1.5.2/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
     "preact": "https://esm.sh/preact@10.18.1",
     "preact/": "https://esm.sh/preact@10.18.1/",
-    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
-    "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
-    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
+    "react-icons/ai": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ai@1.0.9/mod.ts",
+    "react-icons/bi": "https://cdn.jsdelivr.net/gh/urielch/react-icons-bi@1.0.9/mod.ts",
+    "react-icons/bs": "https://cdn.jsdelivr.net/gh/urielch/react-icons-bs@1.0.9/mod.ts",
+    "react-icons/fa": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fa@1.0.9/mod.ts",
+    "react-icons/fi": "https://cdn.jsdelivr.net/gh/urielch/react-icons-fi@1.0.9/mod.ts",
+    "react-icons/gi": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.9/mod.ts",
+    "react-icons/io": "https://cdn.jsdelivr.net/gh/urielch/react-icons-io@1.0.9/mod.ts",
+    "react-icons/md": "https://cdn.jsdelivr.net/gh/urielch/react-icons-md@1.0.9/mod.ts",
+    "react-icons/tb": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.9/mod.ts",
+    "std/": "https://deno.land/std@0.193.0/",
     "twind": "https://esm.sh/twind@0.16.19",
-    "twind/": "https://esm.sh/twind@0.16.19/",
-    "$std/": "https://deno.land/std@0.193.0/"
+    "twind/": "https://esm.sh/twind@0.16.19/"
   },
   "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
   "exclude": ["**/_fresh/*"]
