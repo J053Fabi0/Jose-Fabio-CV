@@ -3,6 +3,7 @@ import { AppProps } from "$fresh/server.ts";
 import Metas from "../components/Metas.tsx";
 import Navbar from "../components/Navbar.tsx";
 import { Links } from "../components/Links.tsx";
+import CurrentTime from "../islands/CurrentTime.tsx";
 
 export default function App({ Component }: AppProps) {
   return (
@@ -24,7 +25,7 @@ export default function App({ Component }: AppProps) {
 
         {/* Bottom bar */}
         <footer class="p-3 mt-2 bg-gray-300 text-gray-600">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <CurrentTime />
         </footer>
       </body>
     </html>
