@@ -4,6 +4,7 @@ import { Handlers } from "$fresh/server.ts";
 import Input from "../components/Input.tsx";
 import redirect from "../utils/redirect.ts";
 import Button from "../components/Button.tsx";
+import LocaleDate from "../islands/LocaleDate.tsx";
 import { Contact } from "../data/models/Contact.ts";
 import Typography from "../components/Typography.tsx";
 
@@ -38,7 +39,10 @@ export const handler: Handlers<CommentsProps> = {
 
     if ("delete" in newContact) {
       await db.contacts.delete(newContact.delete);
-    } else await db.contacts.add(newContact);
+    } else {
+      newContact.createdAt = new Date();
+      await db.contacts.add(newContact);
+    }
 
     return redirect("/comments");
   },
@@ -76,6 +80,9 @@ export default async function Comments() {
               </button>
               <Typography variant="h4">{contact.value.name}</Typography>
               <Typography>{contact.value.comment}</Typography>
+              <Typography variant="smallP" class="w-full mt-3">
+                <LocaleDate date={contact.value.createdAt.valueOf()} />
+              </Typography>
             </article>
           ))}
         </form>

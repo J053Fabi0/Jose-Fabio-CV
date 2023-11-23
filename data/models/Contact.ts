@@ -7,6 +7,7 @@ const ContactModel = z.object({
   email: z.string().optional(),
   phone: z.string().optional(),
   comment: z.string(),
+  createdAt: z.date(),
 });
 
 export default ContactModel;
