@@ -2,21 +2,22 @@
   "lock": false,
   "tasks": {
     "stop": "pm2 stop cv",
-    "start": "deno task build && DENO_DEPLOYMENT_ID=\"$(git rev-parse HEAD)\" pm2 start --interpreter='deno' --interpreter-args='run --allow-net --allow-read --allow-env --allow-run --allow-write' --name cv dev.ts && pm2 logs cv",
     "logs": "pm2 logs cv",
     "reload": "deno task build && pm2 reload cv && pm2 logs cv",
     "update": "deno run -A -r https://fresh.deno.dev/update .",
-    "run": "deno task build && deno run --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts",
-
-    "dev": "deno task build && deno run --watch=static/,routes/  --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts",
+    "run": "deno task build && deno run --unstable --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts",
+    "dev": "deno task build && deno run --unstable --watch=static/,routes/  --allow-net --allow-read --allow-env --allow-run --allow-write dev.ts",
     "check": "deno check main.ts dev.ts",
-    "build": "BUILDING=yes deno run -A dev.ts build"
+    "build": "BUILDING=yes deno run --unstable -A dev.ts build",
+    "run:molt": "deno run --allow-env --allow-read --allow-write=. --allow-run=git,deno --allow-net=deno.land,esm.sh,cdn.jsdelivr.net https://deno.land/x/molt/cli.ts",
+    "update_deps": "deno task -q run:molt check ./**/*.ts",
+    "preview": "deno run -A main.ts"
   },
   "lint": { "rules": { "tags": ["fresh", "recommended"] } },
   "imports": {
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.0",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.1",
-    "$fresh/": "https://deno.land/x/fresh@1.5.2/",
+    "$fresh/": "https://deno.land/x/fresh@1.5.4/",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.2",
     "preact": "https://esm.sh/preact@10.18.1",
     "preact/": "https://esm.sh/preact@10.18.1/",
@@ -29,9 +30,12 @@
     "react-icons/io": "https://cdn.jsdelivr.net/gh/urielch/react-icons-io@1.0.9/mod.ts",
     "react-icons/md": "https://cdn.jsdelivr.net/gh/urielch/react-icons-md@1.0.9/mod.ts",
     "react-icons/tb": "https://cdn.jsdelivr.net/gh/urielch/react-icons-tb@1.0.9/mod.ts",
-    "std/": "https://deno.land/std@0.204.0/",
+    "react-icons/ti": "https://cdn.jsdelivr.net/gh/urielch/react-icons-ti@1.0.9/mod.ts",
+    "std/": "https://deno.land/std@0.207.0/",
+    "kvdex": "https://deno.land/x/kvdex@v0.19.2/mod.ts",
     "twind": "https://esm.sh/twind@0.16.19",
-    "twind/": "https://esm.sh/twind@0.16.19/"
+    "twind/": "https://esm.sh/twind@0.16.19/",
+    "zod": "https://deno.land/x/zod@v3.22.4/mod.ts"
   },
   "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
   "exclude": ["**/_fresh/*"]

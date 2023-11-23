@@ -30,6 +30,10 @@ const pages: Page[] = [
     name: "Extras",
     href: "/extras",
   },
+  {
+    name: "Comments",
+    href: "/comments",
+  },
 ];
 
 export default function Navbar() {
