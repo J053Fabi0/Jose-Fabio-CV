@@ -56,7 +56,7 @@ const desktop = await getResponse(1.5);
 
 export default {
   async fetch(a: Request) {
-    const { pathname } = new URL(a.url);
+    const pathname = decodeURIComponent(new URL(a.url).pathname);
 
     switch (pathname) {
       case "/": {
