@@ -28,10 +28,13 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
   // Use target blank for all links
   htmlText = htmlText.replaceAll(/(?<=<a) (?=href=")/gm, ' target="_blank" ');
 
-  // Center the pdf div and set the background color to white
-  htmlText = htmlText.replaceAll(
-    /(?<=<body) bgcolor="#[0-9A-Z]{6}" (?=vlink=")/gm,
-    ' style="display: flex; justify-content: center; margin: 0;" bgcolor="white" '
+  // Set the background color to white
+  htmlText = htmlText.replaceAll(/(?<=<body) bgcolor="#[0-9A-Z]{6}" (?=vlink=")/gm, ' bgcolor="white" ');
+
+  // Add a style
+  htmlText = htmlText.replace(
+    /<\/head>/,
+    "<style>a { color: #007399; } body { display: flex; justify-content: center; margin: 0; }</style></head>"
   );
 
   // Change the title
