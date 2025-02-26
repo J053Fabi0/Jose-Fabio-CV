@@ -51,8 +51,8 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
   return { htmlText, headers };
 }
 
-const mobile = await getResponse(1);
-const desktop = await getResponse(1.5);
+const mobile = await getResponse(1.5);
+const desktop = await getResponse(1.6);
 
 const fileCache = new Map<string, Uint8Array<ArrayBuffer>>();
 
