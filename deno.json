@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "serve": "deno serve -A index.ts",
+    "watch": "deno serve -A --watch index.ts"
+  },
+  "imports": {
+    "@std/crypto": "jsr:@std/crypto@^1.0.4",
+    "@std/encoding": "jsr:@std/encoding@^1.0.7",
+    "node-poppler": "npm:node-poppler@^7.2.4"
+  }
+}
