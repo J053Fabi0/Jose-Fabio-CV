@@ -1,7 +1,15 @@
 {
   "tasks": {
-    "serve": "deno serve -A index.ts",
-    "watch": "deno serve -A --watch index.ts"
+    "stop": "pm2 stop josefabio",
+    "start": "pm2 start --interpreter='deno' --interpreter-args='serve -A --port 5055' --name josefabio index.ts && pm2 logs josefabio",
+    "logs": "pm2 logs josefabio",
+    "reload": "pm2 reload josefabio && pm2 logs josefabio",
+    "delete": "pm2 delete josefabio",
+    "check": "deno check --allow-import index.ts",
+    "run": "deno serve -A --port 5055 index.ts",
+    "watch": "deno serve -A --watch --port 5055 index.ts",
+    "run:molt": "deno run --allow-import --allow-env --allow-read --allow-write=. --allow-run=git,deno --allow-net=deno.land,esm.sh,cdn.jsdelivr.net https://deno.land/x/molt/cli.ts",
+    "update_deps": "deno task -q run:molt check ./**/*.ts"
   },
   "imports": {
     "@std/crypto": "jsr:@std/crypto@^1.0.4",
