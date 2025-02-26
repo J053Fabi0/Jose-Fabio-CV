@@ -73,6 +73,7 @@ export default {
           if (pathname.startsWith("/.git")) throw 1;
           if (pathname.startsWith("/deno")) throw 1;
           if (pathname.startsWith("/README")) throw 1;
+          if (pathname.startsWith("/index.ts")) throw 1;
 
           const file = await Deno.readFile("." + pathname);
           return new Response(file);
