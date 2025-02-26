@@ -54,6 +54,8 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
 const mobile = await getResponse(1);
 const desktop = await getResponse(1.5);
 
+const fileCache = new Map<string, Uint8Array<ArrayBuffer>>();
+
 export default {
   async fetch(a: Request) {
     const pathname = decodeURIComponent(new URL(a.url).pathname);
@@ -75,7 +77,10 @@ export default {
           if (pathname.startsWith("/README")) throw 1;
           if (pathname.startsWith("/index.ts")) throw 1;
 
+          if (fileCache.has(pathname)) return new Response(fileCache.get(pathname));
+
           const file = await Deno.readFile("." + pathname);
+          fileCache.set(pathname, file);
           return new Response(file);
         } catch {
           return new Response("Not found", { status: 404 });
