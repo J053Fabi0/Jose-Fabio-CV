@@ -2,3 +2,7 @@
 
 Mirror in Tor:
 [josefabiogimxvpdgedgrdfxqu4f7q7xaazyps6vtv77nqvgg4xsutid.onion](http://josefabiogimxvpdgedgrdfxqu4f7q7xaazyps6vtv77nqvgg4xsutid.onion/)
+
+# Install dependencies
+
+`sudo apt-get -y install poppler-utils`
