@@ -1,6 +1,8 @@
 import { crypto } from "@std/crypto";
 import { Poppler } from "node-poppler";
+import { parse } from "@std/path/parse";
 import { encodeHex } from "@std/encoding/hex";
+import { contentType } from "@std/media-types";
 
 async function getResponse(zoom: number): Promise<{ htmlText: string; headers: Record<string, string> }> {
   try {
@@ -37,11 +39,15 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
     "<style>a { color: #007399; } body { display: flex; justify-content: center; margin: 0; }</style></head>"
   );
 
-  // Change the title
-  htmlText = htmlText.replace("<title>index-html.html</title>", "<title>Jose Fabio Argüello Loya</title>");
+  // Change the title and add favicon
+  htmlText = htmlText.replace(
+    "<title>index-html.html</title>",
+    "<title>Jose Fabio Argüello Loya</title>" +
+      '<link rel="icon" href="figures/favicon/favicon.svg" type="image/svg+xml">'
+  );
 
   const headers: Record<string, string> = {
-    "Content-Type": "text/html",
+    "Content-Type": contentType(".html"),
     "Access-Control-Allow-Origin": "*",
     "Content-Length": htmlText.length.toString(),
     "Cache-Control": "no-cache, no-store, must-revalidate",
@@ -57,11 +63,12 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
 const mobile = await getResponse(1.5);
 const desktop = await getResponse(1.6);
 
-const fileCache = new Map<string, Uint8Array<ArrayBuffer>>();
+const fileCache = new Map<string, { file: Uint8Array<ArrayBuffer>; headers: HeadersInit }>();
 
 export default {
   async fetch(a: Request) {
-    const pathname = decodeURIComponent(new URL(a.url).pathname);
+    const url = new URL(a.url);
+    const pathname = decodeURIComponent(url.pathname);
 
     switch (pathname) {
       case "/": {
@@ -80,11 +87,20 @@ export default {
           if (pathname.startsWith("/README")) throw 1;
           if (pathname.startsWith("/index.ts")) throw 1;
 
-          if (fileCache.has(pathname)) return new Response(fileCache.get(pathname));
+          if (fileCache.has(pathname)) {
+            const { file, headers } = fileCache.get(pathname)!;
+            return new Response(file, { headers });
+          }
 
           const file = await Deno.readFile("." + pathname);
-          fileCache.set(pathname, file);
-          return new Response(file);
+          const headers: HeadersInit = {
+            "Content-Type": contentType(parse(pathname).ext) || contentType(".txt"),
+            "ETag": `"${encodeHex(await crypto.subtle.digest("SHA-384", file))}"`,
+          };
+
+          fileCache.set(pathname, { file, headers });
+
+          return new Response(file, { headers });
         } catch {
           return new Response("Not found", { status: 404 });
         }
