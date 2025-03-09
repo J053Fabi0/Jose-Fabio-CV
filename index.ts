@@ -36,7 +36,7 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
   // Add a style
   htmlText = htmlText.replace(
     /<\/head>/,
-    "<style>a { color: #007399; } body { display: flex; justify-content: center; margin: 0; }</style></head>"
+    "<style>a { color: #007399; text-decoration: none; } body { display: flex; justify-content: center; margin: 0; }</style></head>"
   );
 
   // Change the title and add favicon
