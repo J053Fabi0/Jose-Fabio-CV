@@ -5,11 +5,7 @@ import { encodeHex } from "@std/encoding/hex";
 import { contentType } from "@std/media-types";
 
 async function getResponse(zoom: number): Promise<{ htmlText: string; headers: Record<string, string> }> {
-  try {
-    await Deno.remove("./index-html.html");
-  } catch {
-    // file was non-existent
-  }
+  await Deno.remove("./index-html.html").catch(() => undefined);
 
   const poppler = new Poppler();
 
@@ -17,12 +13,13 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
     zoom,
     dataUrls: true,
     singlePage: true,
-    fontFullName: false,
     imageFormat: "JPG",
+    fontFullName: false,
     complexOutput: true,
   });
 
   let htmlText = await Deno.readTextFile("./index-html.html");
+  await Deno.remove("./index-html.html").catch(() => undefined);
 
   // Use sans-serif font
   htmlText = htmlText.replaceAll(/(?<=font-family:)[a-z+-]+(?=;)/gim, "sans-serif");
@@ -43,7 +40,7 @@ async function getResponse(zoom: number): Promise<{ htmlText: string; headers: R
   htmlText = htmlText.replace(
     "<title>index-html.html</title>",
     "<title>Jose Fabio Argüello Loya</title>" +
-      '<link rel="icon" href="figures/favicon/favicon.svg" type="image/svg+xml">'
+      '<link rel="icon" href="i/favicon/favicon.svg" type="image/svg+xml">'
   );
 
   const headers: Record<string, string> = {
@@ -85,6 +82,7 @@ export default {
           if (pathname.startsWith("/.git")) throw 1;
           if (pathname.startsWith("/deno")) throw 1;
           if (pathname.startsWith("/README")) throw 1;
+          if (pathname === "/index-html.html") throw 1;
           if (pathname.startsWith("/index.ts")) throw 1;
 
           if (fileCache.has(pathname)) {
