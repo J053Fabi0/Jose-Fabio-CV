@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Atlantica;
+  src: url(./fonts/AtlanticaSerif-Book.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Atlantica;
+  src: url(./fonts/AtlanticaSerif-BookItalic.woff2) format("woff2");
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Atlantica;
+  src: url(./fonts/AtlanticaSerif-SemiBold.woff2) format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Atlantica;
+  src: url(./fonts/AtlanticaSerif-SemiBoldItalic.woff2) format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  --font-serif: Atlantica, Palatino, "Palatino Linotype", Times, "Droid Serif", serif;
+  --font-sans: system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-serif);
+}
+
+h2,
+h3 {
+  font-family: var(--font-sans);
+}
+
+header p {
+  font-family: var(--font-sans);
+}
+
+@layer base {
+  a {
+    @apply text-blue-600 visited:text-purple-600;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
