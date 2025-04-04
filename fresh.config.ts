@@ -1,7 +1,8 @@
+import { PORT } from "./env.ts";
 import { defineConfig } from "$fresh/server.ts";
 import tailwind from "$fresh/plugins/tailwind.ts";
 
 export default defineConfig({
   plugins: [tailwind()],
-  server: { port: 5055 },
+  server: { port: PORT },
 });
