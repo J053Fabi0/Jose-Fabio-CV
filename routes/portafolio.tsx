@@ -85,13 +85,13 @@ export default function Portafolio() {
                   </p>
                 </header>
                 <p>{p.description}</p>
-                <div className="flex gap-1">
+                <div className="flex flex-wrap gap-1">
                   {p.icons.map((i) => {
                     const IconComponent = isIcon(i) ? icons[i] : null;
                     return (
                       <span
                         key={i}
-                        class="flex items-center rounded border border-gray-500 bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-400"
+                        class="flex items-center text-nowrap rounded border border-gray-500 bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-400"
                       >
                         {IconComponent ? (
                           <span className="me-1.5">
