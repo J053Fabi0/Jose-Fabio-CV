@@ -31,7 +31,8 @@
 }
 
 html {
-  --font-serif: Atlantica, Palatino, "Palatino Linotype", Times, "Droid Serif", serif;
+  --font-serif:
+    Atlantica, Palatino, "Palatino Linotype", Times, "Droid Serif", serif;
   --font-sans: system-ui, sans-serif;
   overflow-x: hidden;
 }
@@ -45,13 +46,9 @@ h3 {
   font-family: var(--font-sans);
 }
 
-header p {
-  font-family: var(--font-sans);
-}
-
 @layer base {
   a {
-    @apply text-blue-600 visited:text-purple-600;
+    @apply text-nowrap text-blue-600 visited:text-purple-600;
   }
 }
 
@@ -62,5 +59,8 @@ header p {
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+  }
+  .font-sans {
+    font-family: var(--font-sans);
   }
 }
