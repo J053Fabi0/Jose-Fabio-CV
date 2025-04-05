@@ -1,13 +1,16 @@
 import { Head } from "$fresh/runtime.ts";
+import icons, { Icons, isIcon } from "../utils/icons.ts";
 import { JSX } from "preact/jsx-runtime/src/index.d.ts";
+import StringWithSuggestions from "../types/stringWithSuggestions.type.ts";
 
 interface Project {
-  title: string;
-  from: string;
   to: string;
+  from: string;
+  title: string;
   link?: string;
-  description: string | JSX.Element;
   images: string[];
+  description: string | JSX.Element;
+  icons: StringWithSuggestions<Icons>[];
 }
 
 const projets: Project[] = [
@@ -21,6 +24,7 @@ const projets: Project[] = [
       "./portafolio/mining-nodes-1.png",
       "./portafolio/mining-nodes-2.png",
     ],
+    icons: ["TypeScript", "Deno", "Fresh", "TailwindCSS"],
   },
   {
     title: "Tiendita",
@@ -35,7 +39,7 @@ const projets: Project[] = [
         <a href="https://tiendita-demo.josefabio.com" target="blank">
           live demo
         </a>{" "}
-        works with any user and password.
+        works with any username and password.
       </>
     ),
     images: [
@@ -43,6 +47,7 @@ const projets: Project[] = [
       "./portafolio/tiendita-2.png",
       "./portafolio/tiendita-3.png",
     ],
+    icons: ["React", "Express", "Bootstrap", "Node.JS", "noSQL database"],
   },
 ];
 
@@ -71,8 +76,7 @@ export default function Portafolio() {
                     {p.from} — {p.to}
                     {p.link ? (
                       <>
-                        {" "}
-                        —{" "}
+                        {" — "}
                         <a href={p.link} target="blank">
                           {p.link}
                         </a>
@@ -81,6 +85,26 @@ export default function Portafolio() {
                   </p>
                 </header>
                 <p>{p.description}</p>
+                <div>
+                  {p.icons.map((i) => {
+                    const IconComponent = isIcon(i) ? icons[i] : null;
+                    return (
+                      <span
+                        key={i}
+                        class="me-2 inline-flex items-center rounded border border-gray-500 bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-400"
+                      >
+                        {IconComponent ? (
+                          <span className="me-1.5">
+                            <IconComponent />
+                          </span>
+                        ) : (
+                          <span />
+                        )}
+                        {i}
+                      </span>
+                    );
+                  })}
+                </div>
               </div>
             </div>
             <div className="no-scrollbar mt-4 flex snap-x gap-4 overflow-x-auto pl-4">
