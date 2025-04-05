@@ -1,17 +1,16 @@
-import {
-  SiBootstrap,
-  SiDeno,
-  SiExpress,
-  SiFresh,
-  SiGraphql,
-  SiMongodb,
-  SiMui,
-  SiNodedotjs,
-} from "react-icons/si";
-import { TbApi } from "react-icons/tb";
-import { FaReact } from "react-icons/fa";
-import { RiTailwindCssLine } from "react-icons/ri";
-import { BiLogoJavascript, BiLogoTypescript } from "react-icons/bi";
+import SiMui from "@preact-icons/si/SiMui";
+import TbApi from "@preact-icons/tb/TbApi";
+import SiDeno from "@preact-icons/si/SiDeno";
+import SiFresh from "@preact-icons/si/SiFresh";
+import FaReact from "@preact-icons/fa/FaReact";
+import SiExpress from "@preact-icons/si/SiExpress";
+import SiGraphql from "@preact-icons/si/SiGraphql";
+import SiMongodb from "@preact-icons/si/SiMongodb";
+import SiBootstrap from "@preact-icons/si/SiBootstrap";
+import SiNodedotjs from "@preact-icons/si/SiNodedotjs";
+import BiLogoJavascript from "@preact-icons/bi/BiLogoJavascript";
+import BiLogoTypescript from "@preact-icons/bi/BiLogoTypescript";
+import RiTailwindCssLine from "@preact-icons/ri/RiTailwindCssLine";
 
 const icons = {
   API: TbApi,

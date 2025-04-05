@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
-import icons, { Icons, isIcon } from "../utils/icons.ts";
 import { JSX } from "preact/jsx-runtime/src/index.d.ts";
+import icons, { Icons, isIcon } from "../utils/icons.ts";
 import StringWithSuggestions from "../types/stringWithSuggestions.type.ts";
 
 interface Project {
@@ -85,21 +85,19 @@ export default function Portafolio() {
                   </p>
                 </header>
                 <p>{p.description}</p>
-                <div>
+                <div className="flex gap-1">
                   {p.icons.map((i) => {
                     const IconComponent = isIcon(i) ? icons[i] : null;
                     return (
                       <span
                         key={i}
-                        class="me-2 inline-flex items-center rounded border border-gray-500 bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-400"
+                        class="flex items-center rounded border border-gray-500 bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-400"
                       >
                         {IconComponent ? (
                           <span className="me-1.5">
                             <IconComponent />
                           </span>
-                        ) : (
-                          <span />
-                        )}
+                        ) : null}
                         {i}
                       </span>
                     );
